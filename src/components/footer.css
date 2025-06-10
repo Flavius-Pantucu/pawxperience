@@ -1,0 +1,101 @@
+.footer-footer7 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  padding-top: var(--dl-layout-space-threeunits);
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-theme-neutral-light);
+}
+ 
+.footer-max-width {
+  gap: var(--dl-layout-space-threeunits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.footer-credits {
+  gap: var(--dl-layout-space-twounits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.footer-row {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+ 
+.footer-container {
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.footer-text1 {
+  font-family: "ChalkboardSE-Regular";
+}
+ 
+.footer-footer-links {
+  gap: 24px;
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.footer-text2 {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: var(--dl-color-theme-neutral-dark);
+}
+ 
+
+ 
+
+ 
+@media(max-width: 1600px) {
+  .footer-text2 {
+    font-family: ChalkboardSE-Regular;
+  }
+  .footer-text3 {
+    font-family: ChalkboardSE-Regular;
+  }
+  .footer-text4 {
+    font-family: ChalkboardSE-Regular;
+  }
+  .footerroot-class-name {
+    background-color: var(--dl-color-theme-neutral-light);
+  }
+  .footerroot-class-name1 {
+    background-color: transparent;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .footer-row {
+    gap: var(--dl-layout-space-oneandhalfunits);
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .footer-footer7 {
+    background-color: var(--dl-color-theme-neutral-light);
+  }
+  .footer-max-width {
+    gap: var(--dl-layout-space-oneandhalfunits);
+  }
+  .footer-footer-links {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

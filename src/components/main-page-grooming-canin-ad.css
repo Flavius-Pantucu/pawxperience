@@ -1,0 +1,158 @@
+.main-page-grooming-canin-ad-container1 {
+  padding-top: var(--dl-layout-space-fiveunits);
+  padding-bottom: var(--dl-layout-space-fiveunits);
+  background-color: var(--dl-color-theme-neutral-light);
+}
+ 
+.main-page-grooming-canin-ad-accent2-bg {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(1deg) skew(0deg, 0deg);
+  align-self: stretch;
+  transition: 0.3s;
+  align-items: center;
+  margin-left: var(--dl-layout-space-twounits);
+  margin-right: var(--dl-layout-space-twounits);
+  border-radius: var(--dl-layout-radius-cardradius);
+  justify-content: space-between;
+  transform-style: preserve-3d;
+  background-color: var(--dl-color-theme-primary1);
+}
+ 
+.main-page-grooming-canin-ad-accent2-bg:hover {
+  transform: scale3d(1.1,1.1,1.1);
+}
+ 
+.main-page-grooming-canin-ad-accent1-bg {
+  width: 100%;
+  display: flex;
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-2deg) skew(0deg, 0deg);
+  align-items: center;
+  border-radius: var(--dl-layout-radius-cardradius);
+  justify-content: space-between;
+  transform-style: preserve-3d;
+  background-color: var(--dl-color-theme-primary2);
+}
+ 
+.main-page-grooming-canin-ad-container2 {
+  gap: var(--dl-layout-space-threeunits);
+  width: 100%;
+  display: flex;
+  padding: var(--dl-layout-space-threeunits);
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(1deg) skew(0deg, 0deg);
+  transition: 0.3s;
+  align-items: center;
+  border-radius: var(--dl-layout-radius-cardradius);
+  justify-content: center;
+}
+ 
+.main-page-grooming-canin-ad-container2:hover {
+  color: var(--dl-color-theme-neutral-light);
+  background-color: var(--dl-color-theme-neutral-dark);
+}
+ 
+.main-page-grooming-canin-ad-content {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.main-page-grooming-canin-ad-text1 {
+  font-size: 36px;
+  font-family: "ChalkboardSE-Regular";
+}
+ 
+.main-page-grooming-canin-ad-text4 {
+  font-size: 18px;
+  font-family: "ChalkboardSE-Regular";
+}
+ 
+.main-page-grooming-canin-ad-actions {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+ 
+.main-page-grooming-canin-ad-navlink {
+  text-decoration: none;
+  background-color: var(--dl-color-theme-accent2);
+    border-color: var(--dl-color-theme-accent2);
+
+}
+ 
+.main-page-grooming-canin-ad-text8 {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: var(--dl-color-theme-neutral-dark);
+  font-size: 18px;
+  font-style: normal;
+  font-family: "ChalkboardSE-Regular";
+  font-weight: 400;
+}
+ 
+
+ 
+@media(max-width: 1600px) {
+  .main-page-grooming-canin-ad-text1 {
+    font-size: 34px;
+  }
+}
+ 
+@media(max-width: 1200px) {
+  .main-page-grooming-canin-ad-text1 {
+    font-size: 32px;
+  }
+  .main-page-grooming-canin-ad-text4 {
+    font-size: 16px;
+  }
+  .main-page-grooming-canin-ad-text8 {
+    font-size: 16px;
+  }
+}
+ 
+@media(max-width: 991px) {
+  .main-page-grooming-canin-ad-text1 {
+    font-size: 30px;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .main-page-grooming-canin-ad-accent2-bg {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .main-page-grooming-canin-ad-container2 {
+    gap: var(--dl-layout-space-oneandhalfunits);
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .main-page-grooming-canin-ad-text1 {
+    font-size: 28px;
+  }
+  .main-page-grooming-canin-ad-text4 {
+    font-size: 14px;
+  }
+  .main-page-grooming-canin-ad-text8 {
+    font-size: 14px;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .main-page-grooming-canin-ad-container1 {
+    padding-top: var(--dl-layout-space-halfunit);
+    padding-bottom: var(--dl-layout-space-halfunit);
+  }
+  .main-page-grooming-canin-ad-text1 {
+    font-size: 26px;
+  }
+  .main-page-grooming-canin-ad-actions {
+    flex-wrap: wrap;
+    align-self: stretch;
+    justify-content: center;
+  }
+  .main-page-grooming-canin-ad-navlink {
+    flex: 1;
+  }
+}

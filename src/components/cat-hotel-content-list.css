@@ -1,0 +1,308 @@
+.cat-hotel-content-list-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: var(--dl-layout-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-layout-space-threeunits);
+  background-image: linear-gradient(22.5deg, #81bfb7 0%,#c6e6e3 25%,#f0f9f8 50%, #ffd3dd 75% ,#f3a2b3 100%);
+}
+ 
+.cat-hotel-content-list-max-width {
+  width: 100%;
+  display: flex;
+  max-width: auto;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.cat-hotel-content-list-content {
+  align-self: stretch;
+  align-items: flex-start;
+}
+ 
+.cat-hotel-content-list-li1 {
+  gap: var(--dl-layout-space-unit);
+  align-items: flex-start;
+}
+ 
+.cat-hotel-content-list-heading11 {
+  width: 100%;
+  font-size: 40px;
+  font-family: "ChalkboardSE-Regular";
+}
+ 
+.cat-hotel-content-list-ul2 {
+  align-items: flex-start;
+  padding-left: var(--dl-layout-space-fiveunits);
+}
+ 
+.cat-hotel-content-list-heading31 {
+  font-size: 24px;
+  font-family: "ChalkboardSE-Regular";
+  font-weight: 400;
+}
+ 
+.cat-hotel-content-list-heading32 {
+  font-size: 24px;
+  font-family: "ChalkboardSE-Regular";
+  font-weight: 400;
+}
+ 
+.cat-hotel-content-list-heading33 {
+  font-size: 24px;
+  font-family: "ChalkboardSE-Regular";
+  font-weight: 400;
+}
+ 
+.cat-hotel-content-list-heading34 {
+  font-size: 24px;
+  font-family: "ChalkboardSE-Regular";
+  font-weight: 400;
+}
+ 
+.cat-hotel-content-list-heading35 {
+  font-size: 24px;
+  font-family: "ChalkboardSE-Regular";
+  font-weight: 400;
+}
+ 
+.cat-hotel-content-list-heading36 {
+  font-size: 24px;
+  font-family: "ChalkboardSE-Regular";
+  font-weight: 400;
+}
+ 
+.cat-hotel-content-list-heading37 {
+  font-size: 24px;
+  font-family: "ChalkboardSE-Regular";
+  font-weight: 400;
+}
+ 
+.cat-hotel-content-list-heading38 {
+  font-size: 24px;
+  font-family: "ChalkboardSE-Regular";
+  font-weight: 400;
+}
+ 
+.cat-hotel-content-list-heading12 {
+  font-size: 26px;
+  font-family: "ChalkboardSE-Regular";
+  font-weight: 400;
+}
+ 
+
+ 
+@media(max-width: 1600px) {
+  .cat-hotel-content-list-heading11 {
+    font-size: 36px;
+  }
+  .cat-hotel-content-list-ul2 {
+    gap: var(--dl-layout-space-oneandhalfunits);
+    height: auto;
+  }
+  .cat-hotel-content-list-li2 {
+    font-family: ChalkboardSE-Regular;
+  }
+  .cat-hotel-content-list-heading31 {
+    font-size: 22px;
+  }
+  .cat-hotel-content-list-li3 {
+    font-family: ChalkboardSE-Regular;
+  }
+  .cat-hotel-content-list-heading32 {
+    font-size: 22px;
+  }
+  .cat-hotel-content-list-li4 {
+    font-family: ChalkboardSE-Regular;
+  }
+  .cat-hotel-content-list-heading33 {
+    font-size: 22px;
+  }
+  .cat-hotel-content-list-li5 {
+    font-family: ChalkboardSE-Regular;
+  }
+  .cat-hotel-content-list-heading34 {
+    font-size: 22px;
+  }
+  .cat-hotel-content-list-li6 {
+    font-family: ChalkboardSE-Regular;
+  }
+  .cat-hotel-content-list-heading35 {
+    font-size: 22px;
+  }
+  .cat-hotel-content-list-li7 {
+    font-family: ChalkboardSE-Regular;
+  }
+  .cat-hotel-content-list-heading36 {
+    font-size: 22px;
+  }
+  .cat-hotel-content-list-li8 {
+    font-family: ChalkboardSE-Regular;
+  }
+  .cat-hotel-content-list-heading37 {
+    font-size: 22px;
+  }
+  .cat-hotel-content-list-li9 {
+    font-family: ChalkboardSE-Regular;
+  }
+  .cat-hotel-content-list-heading38 {
+    font-size: 22px;
+  }
+  .cat-hotel-content-list-heading12 {
+    font-size: 24px;
+  }
+  .cat-hotel-content-listroot-class-name {
+    background-color: transparent;
+  }
+}
+ 
+@media(max-width: 1200px) {
+  .cat-hotel-content-list-heading11 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .cat-hotel-content-list-heading31 {
+    font-size: 20px;
+  }
+  .cat-hotel-content-list-heading32 {
+    font-size: 20px;
+  }
+  .cat-hotel-content-list-heading33 {
+    font-size: 20px;
+  }
+  .cat-hotel-content-list-heading34 {
+    font-size: 20px;
+  }
+  .cat-hotel-content-list-heading35 {
+    font-size: 20px;
+  }
+  .cat-hotel-content-list-heading36 {
+    font-size: 20px;
+  }
+  .cat-hotel-content-list-heading37 {
+    font-size: 20px;
+  }
+  .cat-hotel-content-list-heading38 {
+    font-size: 20px;
+  }
+  .cat-hotel-content-list-heading12 {
+    font-size: 22px;
+    text-align: center;
+  }
+}
+ 
+@media(max-width: 991px) {
+  .cat-hotel-content-list-heading11 {
+    font-size: 28px;
+  }
+  .cat-hotel-content-list-heading31 {
+    font-size: 18px;
+  }
+  .cat-hotel-content-list-heading32 {
+    font-size: 18px;
+  }
+  .cat-hotel-content-list-heading33 {
+    font-size: 18px;
+  }
+  .cat-hotel-content-list-heading34 {
+    font-size: 18px;
+  }
+  .cat-hotel-content-list-heading35 {
+    font-size: 18px;
+  }
+  .cat-hotel-content-list-heading36 {
+    font-size: 18px;
+  }
+  .cat-hotel-content-list-heading37 {
+    font-size: 18px;
+  }
+  .cat-hotel-content-list-heading38 {
+    font-size: 18px;
+  }
+  .cat-hotel-content-list-heading12 {
+    font-size: 20px;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .cat-hotel-content-list-heading11 {
+    font-size: 24px;
+  }
+  .cat-hotel-content-list-ul2 {
+    padding-left: var(--dl-layout-space-threeunits);
+  }
+  .cat-hotel-content-list-heading31 {
+    font-size: 16px;
+  }
+  .cat-hotel-content-list-heading32 {
+    font-size: 16px;
+  }
+  .cat-hotel-content-list-heading33 {
+    font-size: 16px;
+  }
+  .cat-hotel-content-list-heading34 {
+    font-size: 16px;
+  }
+  .cat-hotel-content-list-heading35 {
+    font-size: 16px;
+  }
+  .cat-hotel-content-list-heading36 {
+    font-size: 16px;
+  }
+  .cat-hotel-content-list-heading37 {
+    font-size: 16px;
+  }
+  .cat-hotel-content-list-heading38 {
+    font-size: 16px;
+  }
+  .cat-hotel-content-list-heading12 {
+    font-size: 18px;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .cat-hotel-content-list-container {
+    padding-top: var(--dl-layout-space-oneandhalfunits);
+    padding-bottom: var(--dl-layout-space-oneandhalfunits);
+  }
+  .cat-hotel-content-list-heading11 {
+    font-size: 20px;
+  }
+  .cat-hotel-content-list-ul2 {
+    padding-left: var(--dl-layout-space-oneandhalfunits);
+  }
+  .cat-hotel-content-list-heading31 {
+    font-size: 14px;
+  }
+  .cat-hotel-content-list-heading32 {
+    font-size: 14px;
+  }
+  .cat-hotel-content-list-heading33 {
+    font-size: 14px;
+  }
+  .cat-hotel-content-list-heading34 {
+    font-size: 14px;
+  }
+  .cat-hotel-content-list-heading35 {
+    font-size: 14px;
+  }
+  .cat-hotel-content-list-heading36 {
+    font-size: 14px;
+  }
+  .cat-hotel-content-list-heading37 {
+    font-size: 14px;
+  }
+  .cat-hotel-content-list-heading38 {
+    font-size: 14px;
+  }
+  .cat-hotel-content-list-heading12 {
+    font-size: 16px;
+  }
+  .cat-hotel-content-listroot-class-name {
+    padding-top: var(--dl-layout-space-oneandhalfunits);
+    padding-bottom: var(--dl-layout-space-oneandhalfunits);
+  }
+}

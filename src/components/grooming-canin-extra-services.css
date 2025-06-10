@@ -1,0 +1,251 @@
+.grooming-canin-extra-services-container1 {
+  padding-top: var(--dl-layout-space-threeunits);
+  padding-left: var(--dl-layout-space-fiveunits);
+  padding-right: var(--dl-layout-space-fiveunits);
+  padding-bottom: var(--dl-layout-space-threeunits);
+  background-color: var(--dl-color-theme-neutral-light);
+}
+ 
+.grooming-canin-extra-services-max-width {
+  gap: var(--dl-layout-space-twounits);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.grooming-canin-extra-services-container2 {
+  gap: var(--dl-layout-space-halfunit);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.grooming-canin-extra-services-text10 {
+  width: 100%;
+  font-size: 36px;
+  font-family: "ChalkboardSE-Regular";
+}
+ 
+.grooming-canin-extra-services-content1 {
+  width: 100%;
+  font-size: 24px;
+  font-family: "ChalkboardSE-Regular";
+}
+ 
+.grooming-canin-extra-services-container3 {
+  width: 100%;
+  margin-top: var(--dl-layout-space-unit);
+  align-items: center;
+  justify-content: space-between;
+}
+ 
+.grooming-canin-extra-services-container4 {
+  width: 30%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-theme-accent1);
+}
+ 
+.grooming-canin-extra-services-text11 {
+  font-size: 28px;
+  font-family: "ChalkboardSE-Regular";
+}
+ 
+.grooming-canin-extra-services-text12 {
+  font-size: 24px;
+  font-family: "ChalkboardSE-Regular";
+}
+ 
+.grooming-canin-extra-services-text13 {
+  text-align: center;
+  font-family: "ChalkboardSE-Regular";
+}
+ 
+.grooming-canin-extra-services-container5 {
+  width: 30%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--dl-color-theme-secondary2);
+}
+ 
+.grooming-canin-extra-services-text16 {
+  font-size: 28px;
+  font-family: "ChalkboardSE-Regular";
+}
+ 
+.grooming-canin-extra-services-text17 {
+  font-size: 24px;
+  font-family: "ChalkboardSE-Regular";
+}
+ 
+.grooming-canin-extra-services-text18 {
+  text-align: center;
+  font-family: "ChalkboardSE-Regular";
+}
+ 
+.grooming-canin-extra-services-container6 {
+  width: 30%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--dl-color-theme-primary2);
+}
+ 
+.grooming-canin-extra-services-text19 {
+  font-size: 28px;
+  font-family: "ChalkboardSE-Regular";
+}
+ 
+.grooming-canin-extra-services-text20 {
+  font-size: 24px;
+  font-family: "ChalkboardSE-Regular";
+}
+ 
+.grooming-canin-extra-services-text21 {
+  text-align: center;
+  font-family: "ChalkboardSE-Regular";
+}
+ 
+.grooming-canin-extra-services-container7 {
+  gap: var(--dl-layout-space-halfunit);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.grooming-canin-extra-services-content2 {
+  width: 100%;
+  font-size: 24px;
+  font-family: "ChalkboardSE-Regular";
+}
+ 
+.grooming-canin-extra-services-content3 {
+  width: 100%;
+  font-size: 24px;
+  font-family: "ChalkboardSE-Regular";
+}
+ 
+
+ 
+@media(max-width: 1600px) {
+  .grooming-canin-extra-services-container2 {
+    gap: var(--dl-layout-space-halfunit);
+  }
+  .grooming-canin-extra-services-text11 {
+    font-size: 26px;
+  }
+  .grooming-canin-extra-services-text12 {
+    font-size: 20px;
+  }
+  .grooming-canin-extra-services-text16 {
+    font-size: 26px;
+  }
+  .grooming-canin-extra-services-text17 {
+    font-size: 20px;
+  }
+  .grooming-canin-extra-services-text19 {
+    font-size: 26px;
+  }
+  .grooming-canin-extra-services-text20 {
+    font-size: 20px;
+  }
+  .grooming-canin-extra-services-container7 {
+    gap: var(--dl-layout-space-halfunit);
+  }
+}
+ 
+@media(max-width: 1200px) {
+  .grooming-canin-extra-services-text10 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .grooming-canin-extra-services-content1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .grooming-canin-extra-services-content2 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .grooming-canin-extra-services-content3 {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+ 
+@media(max-width: 991px) {
+  .grooming-canin-extra-services-container3 {
+    flex-direction: column;
+  }
+  .grooming-canin-extra-services-container4 {
+    width: 100%;
+  }
+  .grooming-canin-extra-services-container5 {
+    width: 100%;
+  }
+  .grooming-canin-extra-services-container6 {
+    width: 100%;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .grooming-canin-extra-services-text10 {
+    font-size: 24px;
+  }
+  .grooming-canin-extra-services-content1 {
+    font-size: 16px;
+  }
+  .grooming-canin-extra-services-content2 {
+    font-size: 16px;
+  }
+  .grooming-canin-extra-services-content3 {
+    font-size: 16px;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .grooming-canin-extra-services-container1 {
+    padding-top: var(--dl-layout-space-oneandhalfunits);
+    padding-left: var(--dl-layout-space-oneandhalfunits);
+    padding-right: var(--dl-layout-space-oneandhalfunits);
+  }
+  .grooming-canin-extra-services-max-width {
+    gap: var(--dl-layout-space-unit);
+  }
+  .grooming-canin-extra-services-text10 {
+    font-size: 24px;
+    font-family: ChalkboardSE-Regular;
+  }
+  .grooming-canin-extra-services-text11 {
+    font-size: 26px;
+    font-family: ChalkboardSE-Regular;
+  }
+  .grooming-canin-extra-services-text16 {
+    font-size: 28px;
+    font-family: ChalkboardSE-Regular;
+  }
+  .grooming-canin-extra-services-text19 {
+    font-size: 26px;
+    font-family: ChalkboardSE-Regular;
+  }
+  .grooming-canin-extra-servicesroot-class-name {
+    padding-top: var(--dl-layout-space-oneandhalfunits);
+    padding-left: var(--dl-layout-space-oneandhalfunits);
+    padding-right: var(--dl-layout-space-oneandhalfunits);
+    padding-bottom: var(--dl-layout-space-oneandhalfunits);
+  }
+}
