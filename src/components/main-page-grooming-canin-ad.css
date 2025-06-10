@@ -141,8 +141,8 @@
  
 @media(max-width: 479px) {
   .main-page-grooming-canin-ad-container1 {
-    padding-top: var(--dl-layout-space-halfunit);
-    padding-bottom: var(--dl-layout-space-halfunit);
+    padding-top: var(--dl-layout-space-twounits);
+    padding-bottom: var(--dl-layout-space-twounits);
   }
   .main-page-grooming-canin-ad-text1 {
     font-size: 26px;
