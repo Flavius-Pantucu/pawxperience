@@ -33,7 +33,7 @@ const CatHotelIntro = (props) => {
           </div>
           <div className="cat-hotel-intro-container3">
             <img
-              alt="Cat Hotel and Grooming Services"
+              alt=""
               src="https://images.unsplash.com/photo-1586289883499-f11d28aaf52f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0OTQ2MTY2OHw&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1500"
               className="cat-hotel-intro-image1 thq-img-ratio-4-3"
             />

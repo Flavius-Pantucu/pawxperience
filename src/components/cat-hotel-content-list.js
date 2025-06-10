@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 
-import PropTypes from 'prop-types'
+import PropTypes from "prop-types";
 
-import './cat-hotel-content-list.css'
+import "./cat-hotel-content-list.css";
 
 const CatHotelContentList = (props) => {
   return (
@@ -15,11 +15,6 @@ const CatHotelContentList = (props) => {
             <li className="cat-hotel-content-list-li1 list-item thq-flex-column">
               <h2 className="cat-hotel-content-list-heading11 thq-heading-2">
                 🎁 Ce este inclus în preț?
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
               </h2>
               <ul className="cat-hotel-content-list-ul2 thq-flex-column">
                 <li className="list-item cat-hotel-content-list-li2">
@@ -73,15 +68,15 @@ const CatHotelContentList = (props) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 CatHotelContentList.defaultProps = {
-  rootClassName: '',
-}
+  rootClassName: "",
+};
 
 CatHotelContentList.propTypes = {
   rootClassName: PropTypes.string,
-}
+};
 
-export default CatHotelContentList
+export default CatHotelContentList;

@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 
-import PropTypes from 'prop-types'
+import PropTypes from "prop-types";
 
-import './contact.css'
+import "./contact.css";
 
 const Contact = (props) => {
   return (
@@ -12,14 +12,7 @@ const Contact = (props) => {
       <div className="contact-max-width thq-section-max-width">
         <div className="contact-section-title">
           <div className="contact-content1">
-            <h2 className="contact-heading1 thq-heading-2">
-              Contactați-ne
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </h2>
+            <h2 className="contact-heading1 thq-heading-2">Contactați-ne</h2>
             <p className="contact-text1 thq-body-large">
               Pentru întrebări sau rezervări, vă rugăm să ne contactați folosind
               informațiile furnizate.
@@ -87,15 +80,15 @@ const Contact = (props) => {
         ></iframe>
       </div>
     </div>
-  )
-}
+  );
+};
 
 Contact.defaultProps = {
-  rootClassName: '',
-}
+  rootClassName: "",
+};
 
 Contact.propTypes = {
   rootClassName: PropTypes.string,
-}
+};
 
-export default Contact
+export default Contact;

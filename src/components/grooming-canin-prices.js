@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 
-import PropTypes from 'prop-types'
+import PropTypes from "prop-types";
 
-import './grooming-canin-prices.css'
+import "./grooming-canin-prices.css";
 
 const GroomingCaninPrices = (props) => {
   return (
@@ -22,7 +22,7 @@ const GroomingCaninPrices = (props) => {
         <div className="grooming-canin-prices-container2 thq-grid-auto-300">
           <div className="grooming-canin-prices-card1 thq-card thq-flex-column">
             <h2 className="grooming-canin-prices-text11 thq-heading-2">
-              💖 MarshMellow Pup💖
+              💖 MarshMallow Pup 💖
             </h2>
             <div className="grooming-canin-prices-container3">
               <ul className="grooming-canin-prices-ul1 list">
@@ -81,7 +81,7 @@ const GroomingCaninPrices = (props) => {
           </div>
           <div className="grooming-canin-prices-card2 thq-card thq-flex-column">
             <h2 className="grooming-canin-prices-text24 thq-heading-2">
-              🫧 BubblePup🫧
+              🫧 Bubble Pup 🫧
             </h2>
             <div className="grooming-canin-prices-container4">
               <ul className="grooming-canin-prices-ul3 list">
@@ -141,15 +141,15 @@ const GroomingCaninPrices = (props) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 GroomingCaninPrices.defaultProps = {
-  rootClassName: '',
-}
+  rootClassName: "",
+};
 
 GroomingCaninPrices.propTypes = {
   rootClassName: PropTypes.string,
-}
+};
 
-export default GroomingCaninPrices
+export default GroomingCaninPrices;

@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 
-import PropTypes from 'prop-types'
+import PropTypes from "prop-types";
 
-import './grooming-canin-extra-services.css'
+import "./grooming-canin-extra-services.css";
 
 const GroomingCaninExtraServices = (props) => {
   return (
@@ -12,7 +12,7 @@ const GroomingCaninExtraServices = (props) => {
       <div className="grooming-canin-extra-services-max-width thq-section-max-width">
         <div className="grooming-canin-extra-services-container2">
           <h2 className="grooming-canin-extra-services-text10 thq-heading-2">
-            ✨ Servicii extra 
+            ✨ Servicii extra
           </h2>
           <span className="grooming-canin-extra-services-content1 thq-body-small">
             Pentru că merită mai mult decât un simplu tuns 💖🐶
@@ -36,7 +36,7 @@ const GroomingCaninExtraServices = (props) => {
           </div>
           <div className="grooming-canin-extra-services-container5 thq-card thq-box-shadow">
             <h2 className="grooming-canin-extra-services-text16 thq-heading-2">
-              💧Vidat glande perianale
+              💧 Vidat glande perianale
             </h2>
             <span className="grooming-canin-extra-services-text17 thq-body-small">
               30 lei
@@ -48,7 +48,7 @@ const GroomingCaninExtraServices = (props) => {
           </div>
           <div className="grooming-canin-extra-services-container6 thq-card thq-box-shadow">
             <h2 className="grooming-canin-extra-services-text19 thq-heading-2">
-              👂Curățare urechi
+              👂 Curățare urechi
             </h2>
             <span className="grooming-canin-extra-services-text20 thq-body-small">
               25 lei
@@ -76,15 +76,15 @@ const GroomingCaninExtraServices = (props) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 GroomingCaninExtraServices.defaultProps = {
-  rootClassName: '',
-}
+  rootClassName: "",
+};
 
 GroomingCaninExtraServices.propTypes = {
   rootClassName: PropTypes.string,
-}
+};
 
-export default GroomingCaninExtraServices
+export default GroomingCaninExtraServices;

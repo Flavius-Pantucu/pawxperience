@@ -1,22 +1,22 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 
-import PropTypes from 'prop-types'
+import PropTypes from "prop-types";
 
-import './cat-hotel-faq.css'
+import "./cat-hotel-faq.css";
 
 const CatHotelFAQ = (props) => {
-  const [faq7Visible, setFaq7Visible] = useState(false)
-  const [faq5Visible, setFaq5Visible] = useState(false)
-  const [faq9Visible, setFaq9Visible] = useState(false)
-  const [faq6Visible, setFaq6Visible] = useState(false)
-  const [faq8Visible, setFaq8Visible] = useState(false)
-  const [faq4Visible, setFaq4Visible] = useState(false)
-  const [faq11Visible, setFaq11Visible] = useState(false)
-  const [faq3Visible, setFaq3Visible] = useState(false)
-  const [faq2Visible, setFaq2Visible] = useState(false)
-  const [faq10Visible, setFaq10Visible] = useState(false)
-  const [faq12Visible, setFaq12Visible] = useState(false)
-  const [faq1Visible, setFaq1Visible] = useState(false)
+  const [faq1Visible, setFaq1Visible] = useState(false);
+  const [faq2Visible, setFaq2Visible] = useState(false);
+  const [faq3Visible, setFaq3Visible] = useState(false);
+  const [faq4Visible, setFaq4Visible] = useState(false);
+  const [faq5Visible, setFaq5Visible] = useState(false);
+  const [faq6Visible, setFaq6Visible] = useState(false);
+  const [faq7Visible, setFaq7Visible] = useState(false);
+  const [faq8Visible, setFaq8Visible] = useState(false);
+  const [faq9Visible, setFaq9Visible] = useState(false);
+  const [faq10Visible, setFaq10Visible] = useState(false);
+  const [faq11Visible, setFaq11Visible] = useState(false);
+  const [faq12Visible, setFaq12Visible] = useState(false);
   return (
     <div
       className={`cat-hotel-faqfaq8 thq-section-padding ${props.rootClassName} `}
@@ -27,11 +27,6 @@ const CatHotelFAQ = (props) => {
             <div className="cat-hotel-faq-content1">
               <h2 className="cat-hotel-faq-heading11 thq-heading-2">
                 Frequently Asked Questions
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
               </h2>
             </div>
           </div>
@@ -125,36 +120,24 @@ const CatHotelFAQ = (props) => {
                     </span>
                     <br></br>
                     <span>
-                         • Cu cel puțin 7 zile înainte de începerea cazării
-                      puteți modifica perioada fără 
-                    </span>
-                    <span>
-                      restricții, în limita locurilor disponibile (în cazul unei
-                      prelungiri).
+                      • Cu cel puțin 7 zile înainte de începerea cazării puteți
+                      modifica perioada fără restricții, în limita locurilor
+                      disponibile (în cazul unei prelungiri).
                     </span>
                     <br></br>
                     <span>
-                         • În ultimele 7 zile înainte de cazare sau după ce a
-                      început sejurul, se pot 
-                    </span>
-                    <span>
-                      adăuga zile suplimentare, dar nu se pot reduce cele deja
-                      rezervate.
+                      • În ultimele 7 zile înainte de cazare sau după ce a
+                      început sejurul, se pot adăuga zile suplimentare, dar nu
+                      se pot reduce cele deja rezervate.
                     </span>
                     <br></br>
                     <span>
                       Dacă doriți totuși să scurtați șederea după ce aceasta a
-                      început, este posibil doar 
-                    </span>
-                    <span>
-                      dacă mai rămân peste 7 zile din rezervare – iar doar
-                      zilele ce depășesc aceste 7 pot fi 
-                    </span>
-                    <span>
+                      început, este posibil doar dacă mai rămân peste 7 zile din
+                      rezervare – iar doar zilele ce depășesc aceste 7 pot fi
                       anulate. Pisicuța poate pleca oricând, însă contravaloarea
-                      următoarelor 7 zile nu se va 
+                      următoarelor 7 zile nu se va rambursa.
                     </span>
-                    <span>rambursa.</span>
                   </span>
                 </div>
               )}
@@ -196,17 +179,17 @@ const CatHotelFAQ = (props) => {
                     <span>Absolut! Puteți aduce:</span>
                     <br></br>
                     <span>
-                         • Mâncarea preferată sau dieta specială (vom respecta
-                      cu strictețe indicațiile)
+                      • Mâncarea preferată sau dieta specială (vom respecta cu
+                      strictețe indicațiile)
                     </span>
                     <br></br>
                     <span>
-                         • Jucării, păturici sau obiecte care miros a „acasă” –
+                      • Jucării, păturici sau obiecte care miros a „acasă” –
                       ajută la acomodare
                     </span>
                     <br></br>
                     <span>
-                         • Perne, hamace, zgărzi personalizate – orice crește
+                      • Perne, hamace, zgărzi personalizate – orice crește
                       confortul pisicii
                     </span>
                   </span>
@@ -293,18 +276,17 @@ const CatHotelFAQ = (props) => {
                     <span>Pe durata cazării:</span>
                     <br></br>
                     <span>
-                         📷 Veți primi poze și filmulețe direct pe WhatsApp, în
-                      mod regulat.
+                      📷 Veți primi poze și filmulețe direct pe WhatsApp, în mod
+                      regulat.
                     </span>
                     <br></br>
                     <span>
-                         📋 La cerere, oferim și un mic raport scris despre
+                      📋 La cerere, oferim și un mic raport scris despre
                       comportament, apetit, socializare.
                     </span>
                     <br></br>
                     <span>
-                         💬 Comunicăm deschis și răspundem mereu cu drag la
-                      mesaje!
+                      💬 Comunicăm deschis și răspundem mereu cu drag la mesaje!
                     </span>
                   </span>
                 </div>
@@ -445,12 +427,12 @@ const CatHotelFAQ = (props) => {
                     </span>
                     <br></br>
                     <span>
-                         📞 Veți fi contactați imediat, iar împreună vom decide
+                      📞 Veți fi contactați imediat, iar împreună vom decide
                       pașii următori, în funcție de recomandările medicale.
                     </span>
                     <br></br>
                     <span>
-                         🐾 Bunăstarea pisicii este mereu prioritatea noastră!
+                      🐾 Bunăstarea pisicii este mereu prioritatea noastră!
                     </span>
                   </span>
                 </div>
@@ -638,7 +620,7 @@ const CatHotelFAQ = (props) => {
               WhatsApp sau pe mail.
               <span
                 dangerouslySetInnerHTML={{
-                  __html: ' ',
+                  __html: " ",
                 }}
               />
             </h2>
@@ -650,15 +632,15 @@ const CatHotelFAQ = (props) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 CatHotelFAQ.defaultProps = {
-  rootClassName: '',
-}
+  rootClassName: "",
+};
 
 CatHotelFAQ.propTypes = {
   rootClassName: PropTypes.string,
-}
+};
 
-export default CatHotelFAQ
+export default CatHotelFAQ;
