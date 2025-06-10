@@ -14,23 +14,11 @@ const GroomingCaninPricing = (props) => {
         <div className="grooming-canin-pricing-section-title">
           <div className="grooming-canin-pricing-content">
             <h2 className="grooming-canin-pricing-text10 thq-heading-2">
-              ✨Planuri
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: " ",
-                }}
-              />
+              ✨ Planuri
             </h2>
             <p className="grooming-canin-pricing-text11 thq-body-large">
               <span className="grooming-canin-pricing-text12">
                 Alege planul perfect pentru tine și cățelușul tău
-              </span>
-              <span>
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: " ",
-                  }}
-                />
               </span>
             </p>
           </div>
@@ -94,7 +82,7 @@ const GroomingCaninPricing = (props) => {
               <div className="grooming-canin-pricing-price3">
                 <div className="grooming-canin-pricing-price4">
                   <h3 className="grooming-canin-pricing-text24 thq-heading-3">
-                    🫧 BubblePup 🫧
+                    🫧 Bubble Pup 🫧
                   </h3>
                   <h3 className="grooming-canin-pricing-text25 thq-heading-3">
                     Pachetul de Spălat & Uscat

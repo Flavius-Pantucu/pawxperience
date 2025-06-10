@@ -12,7 +12,7 @@ const GroomingCaninPrices = (props) => {
       <div className="grooming-canin-prices-max-width thq-section-max-width">
         <div className="grooming-canin-prices-container1">
           <h2 className="grooming-canin-prices-text10 thq-heading-2">
-            💸Prețuri
+            💸 Prețuri
           </h2>
           <span className="grooming-canin-prices-content thq-body-small">
             Transparență și grijă la fiecare pas 🐶 Vezi cât costă răsfățul
