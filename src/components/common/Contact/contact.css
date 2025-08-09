@@ -1,4 +1,4 @@
-.contact-contact20 {
+.contact-contact {
   display: flex;
   overflow: hidden;
   position: relative;
@@ -26,7 +26,7 @@
   flex-direction: column;
 }
 
-.contact-content1 {
+.contact-title-content {
   gap: var(--dl-layout-space-halfunit);
   width: 100%;
   display: flex;
@@ -34,13 +34,13 @@
   flex-direction: column;
 }
 
-.contact-heading1 {
+.contact-title-heading {
   width: 100%;
   font-size: 48px;
   font-family: "ChalkboardSE-Regular";
 }
 
-.contact-text1 {
+.contact-title-text {
   width: 100%;
   font-size: 22px;
   font-family: "ChalkboardSE-Regular";
@@ -55,7 +55,7 @@
   flex-shrink: 0;
 }
 
-.contact-content2 {
+.contact-row-content {
   gap: var(--dl-layout-space-oneandhalfunits);
   flex: 1;
   width: 100%;
@@ -66,128 +66,33 @@
   flex-direction: column;
 }
 
-.contact-contact-info1 {
+.contact-info {
   gap: var(--dl-layout-space-unit);
   display: flex;
   align-self: stretch;
   flex-direction: column;
 }
 
-.contact-content3 {
-  gap: 16px;
-  display: flex;
-  align-self: stretch;
-  flex-direction: column;
-}
-
-.contact-text2 {
+.contact-info-title {
   width: 100%;
   font-size: 26px;
   align-self: flex-start;
   font-family: "ChalkboardSE-Regular";
 }
 
-.contact-text3 {
+.contact-info-description {
   width: 100%;
   font-size: 20px;
   font-family: "ChalkboardSE-Regular";
 }
 
-.contact-email1 {
+.contact-info-value {
   width: 100%;
   font-size: 20px;
   font-family: "ChalkboardSE-Regular";
 }
 
-.contact-content4 {
-  gap: var(--dl-layout-space-oneandhalfunits);
-  flex: 1;
-  width: 100%;
-  display: flex;
-  flex-grow: 1;
-  align-items: flex-start;
-  flex-shrink: 0;
-  flex-direction: column;
-}
-
-.contact-contact-info2 {
-  gap: var(--dl-layout-space-unit);
-  display: flex;
-  align-self: stretch;
-  flex-direction: column;
-}
-
-.contact-content5 {
-  gap: 16px;
-  display: flex;
-  align-self: stretch;
-  flex-direction: column;
-}
-
-.contact-text4 {
-  width: 100%;
-  font-size: 26px;
-  align-self: flex-start;
-  font-family: "ChalkboardSE-Regular";
-}
-
-.contact-text5 {
-  width: 100%;
-  font-size: 20px;
-  font-family: "ChalkboardSE-Regular";
-}
-
-.contact-email2 {
-  width: 100%;
-  font-size: 20px;
-  font-family: "ChalkboardSE-Regular";
-}
-
-.contact-content6 {
-  gap: var(--dl-layout-space-oneandhalfunits);
-  flex: 1;
-  width: 100%;
-  display: flex;
-  flex-grow: 1;
-  align-items: flex-start;
-  flex-shrink: 0;
-  flex-direction: column;
-}
-
-.contact-contact-info3 {
-  gap: var(--dl-layout-space-unit);
-  display: flex;
-  align-self: stretch;
-  flex-direction: column;
-}
-
-.contact-content7 {
-  gap: 16px;
-  display: flex;
-  align-self: stretch;
-  flex-direction: column;
-}
-
-.contact-text6 {
-  width: 100%;
-  font-size: 26px;
-  align-self: flex-start;
-  font-family: "ChalkboardSE-Regular";
-}
-
-.contact-text7 {
-  width: 100%;
-  font-size: 20px;
-  font-family: "ChalkboardSE-Regular";
-}
-
-.contact-email3 {
-  width: 100%;
-  font-size: 20px;
-  font-family: "ChalkboardSE-Regular";
-}
-
-.contact-container {
+.contact-google-maps-container {
   flex: 0 0 auto;
   width: 100%;
   display: block;
@@ -199,196 +104,86 @@
   margin-top: var(--dl-layout-space-unit);
 }
 
-.contactroot-class-name {
-  padding-top: var(--dl-layout-space-threeunits);
-  padding-bottom: var(--dl-layout-space-threeunits);
-}
-
 @media (max-width: 1600px) {
-  .contact-heading1 {
+  .contact-title-heading {
     font-size: 44px;
   }
-  .contact-text1 {
+  .contact-title-text {
     font-size: 20px;
   }
-  .contact-text2 {
+  .contact-info-title {
     font-size: 24px;
-  }
-  .contact-text4 {
-    font-size: 24px;
-  }
-  .contact-text6 {
-    font-size: 24px;
-  }
-  .contactroot-class-name {
-    background-color: var(--dl-color-theme-neutral-light);
-  }
-  .contactroot-class-name1 {
-    background-color: transparent;
-  }
-  .contactroot-class-name2 {
-    background-color: transparent;
   }
 }
 
 @media (max-width: 1200px) {
-  .contact-heading1 {
+  .contact-title-heading {
     font-size: 40px;
   }
-  .contact-text1 {
+  .contact-title-text {
     font-size: 18px;
   }
-  .contact-text2 {
+  .contact-info-title {
     font-size: 22px;
   }
-  .contact-text3 {
+  .contact-info-description {
     font-size: 18px;
   }
-  .contact-email1 {
-    font-size: 18px;
-  }
-  .contact-text4 {
-    font-size: 22px;
-  }
-  .contact-text5 {
-    font-size: 18px;
-  }
-  .contact-email2 {
-    font-size: 18px;
-  }
-  .contact-text6 {
-    font-size: 22px;
-  }
-  .contact-text7 {
-    font-size: 18px;
-  }
-  .contact-email3 {
+  .contact-info-value {
     font-size: 18px;
   }
 }
 
 @media (max-width: 991px) {
-  .contact-heading1 {
+  .contact-title-heading {
     font-size: 36px;
   }
-  .contact-text1 {
+  .contact-title-text {
     font-size: 16px;
   }
-  .contact-text2 {
-    font-size: 20px;
-  }
-  .contact-text4 {
-    font-size: 20px;
-  }
-  .contact-text6 {
+  .contact-info-title {
     font-size: 20px;
   }
 }
 
 @media (max-width: 767px) {
-  .contact-heading1 {
+  .contact-title-heading {
     font-size: 32px;
     text-align: center;
   }
-  .contact-text1 {
+  .contact-title-text {
     font-size: 14px;
     text-align: center;
   }
   .contact-row {
     flex-direction: column;
   }
-  .contact-content2 {
-    align-items: center;
-  }
-  .contact-text2 {
+  .contact-info-title {
     font-size: 18px;
     text-align: center;
   }
-  .contact-text3 {
+  .contact-info-description {
     font-size: 16px;
     text-align: center;
   }
-  .contact-email1 {
-    font-size: 16px;
-    text-align: center;
-  }
-  .contact-content4 {
-    align-items: center;
-  }
-  .contact-text4 {
-    font-size: 18px;
-    text-align: center;
-  }
-  .contact-text5 {
-    font-size: 16px;
-    text-align: center;
-  }
-  .contact-email2 {
-    font-size: 16px;
-    text-align: center;
-  }
-  .contact-content6 {
-    align-items: center;
-  }
-  .contact-text6 {
-    font-size: 18px;
-    text-align: center;
-  }
-  .contact-text7 {
-    font-size: 16px;
-    text-align: center;
-  }
-  .contact-email3 {
+  .contact-info-value {
     font-size: 16px;
     text-align: center;
   }
 }
 
 @media (max-width: 479px) {
-  .contact-contact20 {
+  .contact-container {
     padding-top: var(--dl-layout-space-oneandhalfunits);
     padding-bottom: var(--dl-layout-space-oneandhalfunits);
   }
-  .contact-heading1 {
+  .contact-title-heading {
     font-size: 28px;
   }
   .contact-row {
     gap: var(--dl-layout-space-oneandhalfunits);
   }
-  .contact-content2 {
-    gap: var(--dl-layout-space-halfunit);
-  }
-  .contact-text2 {
+  .contact-info-title {
     font-size: 18px;
-  }
-  .contact-content4 {
-    gap: var(--dl-layout-space-halfunit);
-  }
-  .contact-text4 {
-    font-size: 18px;
-    font-family: ChalkboardSE-Regular;
-  }
-  .contact-text5 {
-    font-size: 16px;
-    font-family: ChalkboardSE-Regular;
-  }
-  .contact-email2 {
-    font-size: 16px;
-    font-family: ChalkboardSE-Regular;
-  }
-  .contact-content6 {
-    gap: var(--dl-layout-space-halfunit);
-  }
-  .contact-text6 {
-    font-size: 18px;
-    font-family: ChalkboardSE-Regular;
-  }
-  .contact-text7 {
-    font-size: 16px;
-    font-family: ChalkboardSE-Regular;
-  }
-  .contact-email3 {
-    font-size: 16px;
-    font-family: ChalkboardSE-Regular;
   }
 }
