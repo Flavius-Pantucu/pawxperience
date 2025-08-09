@@ -1,17 +1,14 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React from "react";
+import ReactDOM from "react-dom";
 import {
   BrowserRouter as Router,
   Route,
   Switch,
   Redirect,
-} from 'react-router-dom'
+} from "react-router-dom";
 
-import './style.css'
-import Home from './views/home'
-import CatHotel from './views/cat-hotel'
-import GroomingCanin from './views/grooming-canin'
-import NotFound from './views/not-found'
+import "./style.css";
+import { CatHotel, GroomingCanin, Home, NotFound } from "./views";
 
 const App = () => {
   return (
@@ -24,7 +21,7 @@ const App = () => {
         <Redirect to="**" />
       </Switch>
     </Router>
-  )
-}
+  );
+};
 
-ReactDOM.render(<App />, document.getElementById('app'))
+ReactDOM.render(<App />, document.getElementById("app"));

@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 
-import './cat-hotel-pricing.css'
+import "./cat-hotel-pricing.css";
 
 const CatHotelPricing = (props) => {
-  const [isMonthly, setIsMonthly] = useState(true)
+  const [isMonthly, setIsMonthly] = useState(true);
   return (
     <div className="cat-hotel-pricing-pricing23 thq-section-padding">
       <div className="cat-hotel-pricing-max-width thq-section-max-width">
@@ -17,35 +17,25 @@ const CatHotelPricing = (props) => {
                 <ul className="cat-hotel-pricing-ul1 list">
                   <li className="cat-hotel-pricing-li1 list-item">
                     <span className="cat-hotel-pricing-text2">Tip</span>
+                    <span className="cat-hotel-pricing-text6">Preț/Noapte</span>
                   </li>
                   <li className="cat-hotel-pricing-li2 list-item">
                     <span className="cat-hotel-pricing-text3">
                       Economy- Candy Nest🧸
                     </span>
+                    <span className="cat-hotel-pricing-text7">100 lei</span>
                   </li>
                   <li className="cat-hotel-pricing-li3 list-item">
                     <span className="cat-hotel-pricing-text4">
                       Standard- Bubble Lounge🍓 (extra 15 min de joaca)
                     </span>
+                    <span className="cat-hotel-pricing-text8">120 lei</span>
                   </li>
                   <li className="cat-hotel-pricing-li4 list-item">
                     <span className="cat-hotel-pricing-text5">
                       VIP- Meow Pawlace👑 (extra 15 min de joaca + hrana umeda)
                     </span>
-                  </li>
-                </ul>
-                <ul className="cat-hotel-pricing-ul2 list">
-                  <li className="cat-hotel-pricing-li5 list-item">
-                    <span className="cat-hotel-pricing-text6">Preț/Noapte</span>
-                  </li>
-                  <li className="cat-hotel-pricing-li6 list-item">
-                    <span className="cat-hotel-pricing-text7">90 lei</span>
-                  </li>
-                  <li className="cat-hotel-pricing-li7 list-item">
-                    <span className="cat-hotel-pricing-text8">110 lei</span>
-                  </li>
-                  <li className="cat-hotel-pricing-li8 list-item">
-                    <span className="cat-hotel-pricing-text9">130 lei</span>
+                    <span className="cat-hotel-pricing-text9">140 lei</span>
                   </li>
                 </ul>
               </div>
@@ -54,7 +44,7 @@ const CatHotelPricing = (props) => {
         )}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default CatHotelPricing
+export default CatHotelPricing;
