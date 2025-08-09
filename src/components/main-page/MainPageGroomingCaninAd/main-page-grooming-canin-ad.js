@@ -1,25 +1,23 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
-import PropTypes from 'prop-types'
+import PropTypes from "prop-types";
 
-import './main-page-grooming-canin-ad.css'
+import "./main-page-grooming-canin-ad.css";
 
-const MainPageGroomingCaninAd = (props) => {
+const MainPageGroomingCaninAd = () => {
   return (
-    <div
-      className={`main-page-grooming-canin-ad-container1 thq-section-padding ${props.rootClassName} `}
-    >
+    <div className="main-page-grooming-canin-ad-main-container thq-section-padding">
       <div className="thq-section-max-width">
         <div className="main-page-grooming-canin-ad-accent2-bg">
           <div className="main-page-grooming-canin-ad-accent1-bg">
-            <div className="main-page-grooming-canin-ad-container2">
+            <div className="main-page-grooming-canin-ad-container">
               <div className="main-page-grooming-canin-ad-content">
-                <span className="main-page-grooming-canin-ad-text1 thq-heading-2">
+                <span className="main-page-grooming-canin-ad-title thq-heading-2">
                   <span>Răsfață-ți patrupedul chiar acum!</span>
                   <br></br>
                 </span>
-                <p className="main-page-grooming-canin-ad-text4 thq-body-large">
+                <p className="main-page-grooming-canin-ad-description thq-body-large">
                   <span>
                     Fă o programare în doar câteva secunde și oferă-i animalului
                     tău o experiență de grooming profesională, într-un mediu
@@ -34,7 +32,7 @@ const MainPageGroomingCaninAd = (props) => {
                   to="/"
                   className="main-page-grooming-canin-ad-navlink thq-button-filled"
                 >
-                  <span className="main-page-grooming-canin-ad-text8">
+                  <span className="main-page-grooming-canin-ad-button-text">
                     Programează-te acum
                   </span>
                 </Link>
@@ -44,15 +42,7 @@ const MainPageGroomingCaninAd = (props) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-MainPageGroomingCaninAd.defaultProps = {
-  rootClassName: '',
-}
-
-MainPageGroomingCaninAd.propTypes = {
-  rootClassName: PropTypes.string,
-}
-
-export default MainPageGroomingCaninAd
+export default MainPageGroomingCaninAd;

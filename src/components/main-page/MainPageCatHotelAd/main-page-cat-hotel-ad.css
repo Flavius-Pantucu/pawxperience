@@ -1,13 +1,14 @@
-.main-page-cat-hotel-ad-container1 {
+.main-page-cat-hotel-ad-main-container {
   padding-top: var(--dl-layout-space-fiveunits);
   padding-bottom: var(--dl-layout-space-fiveunits);
   background-color: var(--dl-color-theme-neutral-light);
 }
- 
+
 .main-page-cat-hotel-ad-accent2-bg {
   gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
-  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(1deg) skew(0deg, 0deg);
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(1deg) skew(0deg, 0deg);
   align-self: stretch;
   transition: 0.3s;
   align-items: center;
@@ -18,56 +19,58 @@
   transform-style: preserve-3d;
   background-color: var(--dl-color-theme-accent2);
 }
- 
+
 .main-page-cat-hotel-ad-accent2-bg:hover {
-  transform: scale3d(1.1,1.1,1.1);
+  transform: scale3d(1.1, 1.1, 1.1);
 }
- 
+
 .main-page-cat-hotel-ad-accent1-bg {
   width: 100%;
   display: flex;
-  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-2deg) skew(0deg, 0deg);
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(-2deg) skew(0deg, 0deg);
   align-items: center;
   border-radius: var(--dl-layout-radius-cardradius);
   justify-content: space-between;
   transform-style: preserve-3d;
   background-color: var(--dl-color-theme-accent1);
 }
- 
-.main-page-cat-hotel-ad-container2 {
+
+.main-page-cat-hotel-ad-container {
   gap: var(--dl-layout-space-threeunits);
   width: 100%;
   display: flex;
   padding: var(--dl-layout-space-threeunits);
-  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(1deg) skew(0deg, 0deg);
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(1deg) skew(0deg, 0deg);
   transition: 0.3s;
   align-items: center;
   border-radius: var(--dl-layout-radius-cardradius);
   justify-content: center;
 }
- 
-.main-page-cat-hotel-ad-container2:hover {
+
+.main-page-cat-hotel-ad-container:hover {
   color: var(--dl-color-theme-neutral-light);
   background-color: var(--dl-color-theme-neutral-dark);
 }
- 
+
 .main-page-cat-hotel-ad-content {
   gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
- 
-.main-page-cat-hotel-ad-text1 {
+
+.main-page-cat-hotel-ad-title {
   font-size: 36px;
   font-family: "ChalkboardSE-Regular";
 }
- 
-.main-page-cat-hotel-ad-text2 {
+
+.main-page-cat-hotel-ad-description {
   font-size: 18px;
   font-family: "ChalkboardSE-Regular";
 }
- 
+
 .main-page-cat-hotel-ad-actions {
   gap: var(--dl-layout-space-oneandhalfunits);
   flex: 1;
@@ -75,75 +78,73 @@
   align-items: flex-start;
   justify-content: flex-end;
 }
- 
+
 .main-page-cat-hotel-ad-navlink {
   text-decoration: none;
 }
- 
-.main-page-cat-hotel-ad-text3 {
+
+.main-page-cat-hotel-ad-button-text {
   color: rgb(0, 0, 0);
   font-size: 18px;
   font-style: normal;
   font-family: "ChalkboardSE-Regular";
   font-weight: 400;
 }
- 
 
- 
-@media(max-width: 1600px) {
-  .main-page-cat-hotel-ad-text1 {
+@media (max-width: 1600px) {
+  .main-page-cat-hotel-ad-title {
     font-size: 34px;
   }
   .main-page-cat-hotel-adroot-class-name {
     background-color: transparent;
   }
 }
- 
-@media(max-width: 1200px) {
-  .main-page-cat-hotel-ad-text1 {
+
+@media (max-width: 1200px) {
+  .main-page-cat-hotel-ad-title {
     font-size: 32px;
   }
-  .main-page-cat-hotel-ad-text2 {
+  .main-page-cat-hotel-ad-description {
     font-size: 16px;
   }
-  .main-page-cat-hotel-ad-text3 {
+  .main-page-cat-hotel-ad-button-text {
     font-size: 16px;
   }
 }
- 
-@media(max-width: 991px) {
-  .main-page-cat-hotel-ad-text1 {
+
+@media (max-width: 991px) {
+  .main-page-cat-hotel-ad-title {
     font-size: 30px;
   }
 }
- 
-@media(max-width: 767px) {
+
+@media (max-width: 767px) {
   .main-page-cat-hotel-ad-accent2-bg {
     margin-left: 0px;
     margin-right: 0px;
   }
-  .main-page-cat-hotel-ad-container2 {
+  .main-page-cat-hotel-ad-container {
     gap: var(--dl-layout-space-oneandhalfunits);
     flex-direction: column;
     justify-content: flex-start;
   }
-  .main-page-cat-hotel-ad-text1 {
+  .main-page-cat-hotel-ad-title {
     font-size: 28px;
   }
-  .main-page-cat-hotel-ad-text2 {
+  .main-page-cat-hotel-ad-description {
     font-size: 14px;
   }
-  .main-page-cat-hotel-ad-text3 {
+  .main-page-cat-hotel-ad-button-text {
     font-size: 14px;
   }
 }
- 
-@media(max-width: 479px) {
+
+@media (max-width: 479px) {
   .main-page-cat-hotel-ad-container1 {
     padding-top: var(--dl-layout-space-twounits);
     padding-bottom: var(--dl-layout-space-twounits);
   }
-  .main-page-cat-hotel-ad-text1 {
+  .main-page-cat-hotel-ad-title {
     font-size: 26px;
   }
   .main-page-cat-hotel-ad-actions {
