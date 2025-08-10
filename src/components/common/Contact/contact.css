@@ -119,18 +119,30 @@
 @media (max-width: 1200px) {
   .contact-title-heading {
     font-size: 40px;
+    text-align: center;
   }
   .contact-title-text {
     font-size: 18px;
+    text-align: center;
   }
   .contact-info-title {
     font-size: 22px;
+    text-align: center;
   }
   .contact-info-description {
     font-size: 18px;
+    text-align: center;
   }
   .contact-info-value {
+    text-align: center;
     font-size: 18px;
+  }
+  .contact-icon {
+    text-align: center;
+    width: 100%;
+  }
+  .contact-row {
+    flex-direction: column;
   }
 }
 
@@ -149,26 +161,19 @@
 @media (max-width: 767px) {
   .contact-title-heading {
     font-size: 32px;
-    text-align: center;
   }
   .contact-title-text {
     font-size: 14px;
-    text-align: center;
   }
-  .contact-row {
-    flex-direction: column;
-  }
+
   .contact-info-title {
     font-size: 18px;
-    text-align: center;
   }
   .contact-info-description {
     font-size: 16px;
-    text-align: center;
   }
   .contact-info-value {
     font-size: 16px;
-    text-align: center;
   }
 }
 

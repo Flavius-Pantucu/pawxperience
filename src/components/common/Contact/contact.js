@@ -36,7 +36,7 @@ const data = [
     icon: <FaMapMarkerAlt size={36} color="#4285F4" />,
     title: "Locație",
     description:
-      "Pentru urgențe, vă rugăm să sunați la linia noastră de urgență la numărul +40 775 655 787",
+      "Dacă întâmpinați dificultăți în a ajunge la noi, contactați-ne la +40 775 655 787",
     value: "Str. Lct. Alexandru Paulescu, nr. 13, sector2, București",
   },
 ];
@@ -57,7 +57,7 @@ const Contact = () => {
         <div className="contact-row">
           {data.map((item, index) => (
             <div className="contact-row-content" key={index}>
-              {item.icon}
+              <div className="contact-icon">{item.icon}</div>
               <div className="contact-info">
                 <h3 className="contact-info-title">{item.title}</h3>
                 <p className="contact-info-description"> {item.description}</p>
