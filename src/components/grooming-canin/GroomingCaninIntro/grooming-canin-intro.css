@@ -1,4 +1,4 @@
-.grooming-canin-intro-header76 {
+.grooming-canin-intro-main-container {
   gap: var(--dl-layout-space-unit);
   width: 100%;
   height: auto;
@@ -13,17 +13,22 @@
   flex-direction: row;
   padding-bottom: var(--dl-layout-space-threeunits);
   justify-content: center;
-  background-image: linear-gradient(-90deg, #f0f9f8 0%,#c6e6e3 60%,#81bfb7 100%);
+  background-image: linear-gradient(
+    -90deg,
+    #f0f9f8 0%,
+    #c6e6e3 60%,
+    #81bfb7 100%
+  );
 }
- 
+
 .grooming-canin-intro-max-width {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: center;
 }
- 
-.grooming-canin-intro-column1 {
+
+.grooming-canin-intro-column {
   gap: var(--dl-layout-space-unit);
   width: 50%;
   display: flex;
@@ -32,7 +37,7 @@
   flex-direction: column;
   justify-content: center;
 }
- 
+
 .grooming-canin-intro-container {
   flex: 0 0 auto;
   width: 100%;
@@ -40,32 +45,20 @@
   align-items: flex-start;
   flex-direction: column;
 }
- 
-.grooming-canin-intro-heading11 {
+
+.grooming-canin-intro-heading {
   width: 100%;
   font-size: 44px;
   font-family: "ChalkboardSE-Regular";
 }
- 
-.grooming-canin-intro-heading12 {
-  width: 100%;
-  font-size: 44px;
-  font-family: "ChalkboardSE-Regular";
-}
- 
-.grooming-canin-intro-content11 {
+
+.grooming-canin-intro-heading-content {
   width: 100%;
   font-size: 20px;
   font-family: "ChalkboardSE-Regular";
 }
- 
-.grooming-canin-intro-content12 {
-  width: 100%;
-  font-size: 20px;
-  font-family: "ChalkboardSE-Regular";
-}
- 
-.grooming-canin-intro-content {
+
+.grooming-canin-intro-photos-content {
   gap: var(--dl-layout-space-unit);
   width: 50%;
   height: 900px;
@@ -73,7 +66,8 @@
   position: relative;
   align-items: center;
 }
- 
+
+.grooming-canin-intro-column1,
 .grooming-canin-intro-column2 {
   gap: 16px;
   width: 50%;
@@ -83,115 +77,40 @@
   flex-shrink: 0;
   flex-direction: column;
 }
- 
-.grooming-canin-intro-placeholder-image1 {
-  width: 100%;
-  height: 400px;
-  align-self: stretch;
-  border-radius: var(--dl-layout-radius-radius4);
-}
- 
-.grooming-canin-intro-placeholder-image2 {
-  width: 100%;
-  height: 400px;
-  align-self: stretch;
-  border-radius: var(--dl-layout-radius-radius4);
-}
- 
-.grooming-canin-intro-placeholder-image3 {
-  width: 100%;
-  height: 400px;
-  align-self: stretch;
-  border-radius: var(--dl-layout-radius-radius4);
-}
- 
-.grooming-canin-intro-column3 {
-  gap: 16px;
-  width: 50%;
-  height: auto;
-  display: flex;
-  z-index: 1;
-  align-items: flex-start;
-  flex-shrink: 0;
-  flex-direction: column;
-}
- 
-.grooming-canin-intro-placeholder-image4 {
-  width: 100%;
-  height: 400px;
-  align-self: stretch;
-  border-radius: var(--dl-layout-radius-radius4);
-}
- 
-.grooming-canin-intro-placeholder-image5 {
-  width: 100%;
-  height: 400px;
-  align-self: stretch;
-  border-radius: var(--dl-layout-radius-radius4);
-}
- 
-.grooming-canin-intro-placeholder-image6 {
-  width: 100%;
-  height: 400px;
-  align-self: stretch;
-  border-radius: var(--dl-layout-radius-radius4);
-}
- 
-.grooming-canin-intro-placeholder-image7 {
-  width: 100%;
-  height: 400px;
-  align-self: stretch;
-  border-radius: var(--dl-layout-radius-radius4);
-}
- 
 
- 
-@media(max-width: 1600px) {
-  .grooming-canin-intro-heading11 {
+.grooming-canin-intro-image {
+  height: 400px;
+  width: 100%;
+  align-self: stretch;
+  border-radius: var(--dl-layout-radius-radius4);
+}
+
+@media (max-width: 1600px) {
+  .grooming-canin-intro-heading {
     font-size: 42px;
-    font-family: ChalkboardSE-Regular;
   }
-  .grooming-canin-intro-heading12 {
-    font-size: 42px;
-    font-family: ChalkboardSE-Regular;
-  }
-  .grooming-canin-intro-content11 {
+  .grooming-canin-intro-heading-content {
     font-size: 20px;
-    font-family: ChalkboardSE-Regular;
   }
-  .grooming-canin-intro-content12 {
-    font-size: 20px;
-    font-family: ChalkboardSE-Regular;
-  }
-  .grooming-canin-introroot-class-name {
-    background-color: transparent;
+  .grooming-canin-intro-image {
+    height: 300px;
   }
 }
- 
-@media(max-width: 1200px) {
-  .grooming-canin-intro-column1 {
+
+@media (max-width: 1200px) {
+  .grooming-canin-intro-column {
     padding: var(--dl-layout-space-halfunit);
   }
-  .grooming-canin-intro-heading11 {
+  .grooming-canin-intro-heading {
     font-size: 38px;
-    text-align: center;
   }
-  .grooming-canin-intro-heading12 {
-    font-size: 38px;
-    text-align: center;
-  }
-  .grooming-canin-intro-content11 {
+  .grooming-canin-intro-heading-content {
     font-size: 18px;
-    text-align: center;
-  }
-  .grooming-canin-intro-content12 {
-    font-size: 18px;
-    text-align: center;
   }
 }
- 
-@media(max-width: 991px) {
-  .grooming-canin-intro-header76 {
+
+@media (max-width: 991px) {
+  .grooming-canin-intro-main-container {
     padding-left: 0px;
     padding-right: 0px;
     flex-direction: column;
@@ -199,115 +118,70 @@
   .grooming-canin-intro-max-width {
     flex-direction: column;
   }
-  .grooming-canin-intro-column1 {
+  .grooming-canin-intro-column {
     width: 100%;
     padding: var(--dl-layout-space-threeunits);
   }
-  .grooming-canin-intro-heading11 {
+  .grooming-canin-intro-heading {
     font-size: 34px;
+    text-align: center;
   }
-  .grooming-canin-intro-heading12 {
-    font-size: 34px;
+  .grooming-canin-intro-heading-content {
+    text-align: center;
   }
-  .grooming-canin-intro-content {
-    width: auto;
-    height: auto;
-    flex-direction: column;
-  }
-  .grooming-canin-intro-column2 {
+  .grooming-canin-intro-column1 {
     width: auto;
     margin-top: 0px;
     margin-left: -200px;
     flex-direction: row;
   }
-  .grooming-canin-intro-placeholder-image1 {
+  .grooming-canin-intro-image {
     width: 400px;
   }
-  .grooming-canin-intro-placeholder-image2 {
-    width: 400px;
-  }
-  .grooming-canin-intro-placeholder-image3 {
-    width: 400px;
-  }
-  .grooming-canin-intro-column3 {
+  .grooming-canin-intro-column2 {
     width: auto;
     flex-direction: row;
   }
-  .grooming-canin-intro-placeholder-image4 {
-    width: 400px;
-  }
-  .grooming-canin-intro-placeholder-image5 {
-    width: 400px;
-  }
-  .grooming-canin-intro-placeholder-image6 {
-    width: 400px;
-  }
-  .grooming-canin-intro-placeholder-image7 {
-    width: 400px;
+  .grooming-canin-intro-photos-content {
+    width: auto;
+    height: auto;
+    flex-direction: column;
   }
 }
- 
-@media(max-width: 767px) {
-  .grooming-canin-intro-heading11 {
+
+@media (max-width: 767px) {
+  .grooming-canin-intro-heading {
     font-size: 30px;
   }
-  .grooming-canin-intro-heading12 {
-    font-size: 30px;
-  }
-  .grooming-canin-intro-content11 {
+  .grooming-canin-intro-heading-content {
     font-size: 16px;
   }
-  .grooming-canin-intro-content12 {
-    font-size: 16px;
-  }
-  .grooming-canin-intro-column2 {
+  .grooming-canin-intro-column1 {
     width: 100%;
     margin-left: 0px;
     flex-direction: column;
   }
-  .grooming-canin-intro-placeholder-image1 {
+  .grooming-canin-intro-image {
     width: 100%;
     height: 500px;
   }
-  .grooming-canin-intro-placeholder-image2 {
-    width: 100%;
-    height: 500px;
-  }
-  .grooming-canin-intro-placeholder-image3 {
-    width: 100%;
-    height: 500px;
-  }
-  .grooming-canin-intro-column3 {
+  .grooming-canin-intro-column2 {
     display: none;
   }
 }
- 
-@media(max-width: 479px) {
-  .grooming-canin-intro-header76 {
+
+@media (max-width: 479px) {
+  .grooming-canin-intro-main-container {
     padding-top: var(--dl-layout-space-unit);
     padding-bottom: var(--dl-layout-space-unit);
   }
-  .grooming-canin-intro-column1 {
+  .grooming-canin-intro-column {
     padding: var(--dl-layout-space-oneandhalfunits);
   }
-  .grooming-canin-intro-heading11 {
+  .grooming-canin-intro-heading {
     font-size: 24px;
-    font-family: ChalkboardSE-Regular;
   }
-  .grooming-canin-intro-heading12 {
-    font-size: 24px;
-    font-family: ChalkboardSE-Regular;
-  }
-  .grooming-canin-intro-content11 {
+  .grooming-canin-intro-heading-content {
     font-size: 16px;
-    font-family: ChalkboardSE-Regular;
-  }
-  .grooming-canin-intro-content12 {
-    font-size: 16px;
-    font-family: ChalkboardSE-Regular;
-  }
-  .grooming-canin-introroot-class-name {
-    padding-top: var(--dl-layout-space-oneandhalfunits);
-    padding-bottom: var(--dl-layout-space-oneandhalfunits);
   }
 }

@@ -1,4 +1,4 @@
-.grooming-canin-pricing-pricing23 {
+.grooming-canin-pricing-main-container {
   width: 100%;
   height: auto;
   display: flex;
@@ -12,7 +12,7 @@
 }
 
 .grooming-canin-pricing-max-width {
-  gap: var(--dl-layout-space-threeunits);
+  gap: var(--dl-layout-space-twounits);
   width: 100%;
   display: flex;
   align-items: center;
@@ -29,7 +29,7 @@
   flex-direction: column;
 }
 
-.grooming-canin-pricing-content {
+.grooming-canin-pricing-header {
   gap: var(--dl-layout-space-halfunit);
   width: 100%;
   display: flex;
@@ -39,13 +39,13 @@
   flex-direction: column;
 }
 
-.grooming-canin-pricing-text10 {
+.grooming-canin-pricing-header-title {
   font-size: 36px;
   text-align: center;
   font-family: "ChalkboardSE-Regular";
 }
 
-.grooming-canin-pricing-text11 {
+.grooming-canin-pricing-header-description {
   font-size: 24px;
   text-align: center;
   font-family: "ChalkboardSE-Regular";
@@ -79,7 +79,7 @@
   background-color: var(--dl-color-theme-primary2);
 }
 
-.grooming-canin-pricing-price1 {
+.grooming-canin-pricing-card-container {
   gap: var(--dl-layout-space-twounits);
   display: flex;
   flex-grow: 1;
@@ -88,7 +88,7 @@
   flex-direction: column;
 }
 
-.grooming-canin-pricing-price2 {
+.grooming-canin-pricing-card-content {
   gap: var(--dl-layout-space-halfunit);
   display: flex;
   align-self: stretch;
@@ -96,22 +96,23 @@
   flex-direction: column;
 }
 
-.grooming-canin-pricing-text14 {
-  font-size: 40px;
+.grooming-canin-pricing-card-title {
+  font-size: 38px;
   font-family: "ChalkboardSE-Regular";
 }
 
-.grooming-canin-pricing-text15 {
+.grooming-canin-pricing-card-subtitle {
   font-size: 32px;
   font-family: "ChalkboardSE-Regular";
 }
 
-.grooming-canin-pricing-text16 {
+.grooming-canin-pricing-card-info {
   font-size: 18px;
   font-family: "ChalkboardSE-Regular";
+  text-align: center;
 }
 
-.grooming-canin-pricing-list1 {
+.grooming-canin-pricing-list {
   gap: var(--dl-layout-space-unit);
   display: flex;
   align-self: stretch;
@@ -119,7 +120,7 @@
   flex-direction: column;
 }
 
-.grooming-canin-pricing-list-item10 {
+.grooming-canin-pricing-list-item {
   gap: var(--dl-layout-space-unit);
   display: flex;
   align-self: stretch;
@@ -127,85 +128,7 @@
   flex-shrink: 0;
 }
 
-.grooming-canin-pricing-text17 {
-  font-size: 18px;
-  font-family: "ChalkboardSE-Regular";
-}
-
-.grooming-canin-pricing-list-item11 {
-  gap: var(--dl-layout-space-unit);
-  display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-shrink: 0;
-}
-
-.grooming-canin-pricing-text18 {
-  font-size: 18px;
-  font-family: "ChalkboardSE-Regular";
-}
-
-.grooming-canin-pricing-list-item12 {
-  gap: var(--dl-layout-space-unit);
-  display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-shrink: 0;
-}
-
-.grooming-canin-pricing-text19 {
-  font-size: 18px;
-  font-family: "ChalkboardSE-Regular";
-}
-
-.grooming-canin-pricing-list-item13 {
-  gap: var(--dl-layout-space-unit);
-  display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-shrink: 0;
-}
-
-.grooming-canin-pricing-text20 {
-  font-size: 18px;
-  font-family: "ChalkboardSE-Regular";
-}
-
-.grooming-canin-pricing-list-item14 {
-  gap: var(--dl-layout-space-unit);
-  display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-shrink: 0;
-}
-
-.grooming-canin-pricing-text21 {
-  font-size: 18px;
-  font-family: "ChalkboardSE-Regular";
-}
-
-.grooming-canin-pricing-list-item15 {
-  gap: var(--dl-layout-space-unit);
-  display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-shrink: 0;
-}
-
-.grooming-canin-pricing-text22 {
-  font-size: 18px;
-  font-family: "ChalkboardSE-Regular";
-}
-
-.grooming-canin-pricing-list-item16 {
-  gap: var(--dl-layout-space-unit);
-  display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-shrink: 0;
-}
-
-.grooming-canin-pricing-text23 {
+.grooming-canin-pricing-item-text {
   font-size: 18px;
   font-family: "ChalkboardSE-Regular";
 }
@@ -224,232 +147,67 @@
   background-color: var(--dl-color-theme-accent1);
 }
 
-.grooming-canin-pricing-price3 {
-  gap: var(--dl-layout-space-twounits);
-  display: flex;
-  flex-grow: 1;
-  align-self: stretch;
-  align-items: center;
-  flex-direction: column;
-}
-
-.grooming-canin-pricing-price4 {
-  gap: var(--dl-layout-space-halfunit);
-  display: flex;
-  align-self: stretch;
-  align-items: center;
-  flex-direction: column;
-}
-
-.grooming-canin-pricing-text24 {
-  font-size: 40px;
-  font-family: "ChalkboardSE-Regular";
-}
-
-.grooming-canin-pricing-text25 {
-  font-size: 32px;
-  font-family: "ChalkboardSE-Regular";
-}
-
-.grooming-canin-pricing-text26 {
-  font-size: 18px;
-  font-family: "ChalkboardSE-Regular";
-}
-
-.grooming-canin-pricing-list2 {
-  gap: var(--dl-layout-space-unit);
-  display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-direction: column;
-}
-
-.grooming-canin-pricing-list-item17 {
-  gap: var(--dl-layout-space-unit);
-  display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-shrink: 0;
-}
-
-.grooming-canin-pricing-text27 {
-  font-size: 18px;
-  font-family: "ChalkboardSE-Regular";
-}
-
-.grooming-canin-pricing-list-item18 {
-  gap: var(--dl-layout-space-unit);
-  display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-shrink: 0;
-}
-
-.grooming-canin-pricing-text28 {
-  font-size: 18px;
-  font-family: "ChalkboardSE-Regular";
-}
-
-.grooming-canin-pricing-list-item19 {
-  gap: var(--dl-layout-space-unit);
-  display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-shrink: 0;
-}
-
-.grooming-canin-pricing-text29 {
-  font-size: 18px;
-  font-family: "ChalkboardSE-Regular";
-}
-
-.grooming-canin-pricing-list-item20 {
-  gap: var(--dl-layout-space-unit);
-  display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-shrink: 0;
-}
-
-.grooming-canin-pricing-text30 {
-  font-size: 18px;
-  font-family: "ChalkboardSE-Regular";
-}
-
-.grooming-canin-pricingroot-class-name {
-  padding-bottom: var(--dl-layout-space-twounits);
-}
-
 @media (max-width: 1600px) {
-  .grooming-canin-pricing-section-title {
-    margin-top: HalfUnit;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-  }
-  .grooming-canin-pricing-text10 {
+  .grooming-canin-pricing-header-title {
     font-size: 34px;
-  }
-  .grooming-canin-pricing-text12 {
-    font-family: ChalkboardSE-Regular;
   }
   .grooming-canin-pricing-container {
     margin-top: 0px;
     padding-top: 0px;
     margin-bottom: 0px;
   }
-  .grooming-canin-pricing-text15 {
+  .grooming-canin-pricing-card-subtitle {
     font-size: 28px;
-  }
-  .grooming-canin-pricing-text17 {
-    font-family: ChalkboardSE-Regular;
-  }
-  .grooming-canin-pricing-text18 {
-    font-family: ChalkboardSE-Regular;
-  }
-  .grooming-canin-pricing-text19 {
-    font-family: ChalkboardSE-Regular;
-  }
-  .grooming-canin-pricing-text20 {
-    font-family: ChalkboardSE-Regular;
-  }
-  .grooming-canin-pricing-text21 {
-    font-family: ChalkboardSE-Regular;
-  }
-  .grooming-canin-pricing-text22 {
-    font-family: ChalkboardSE-Regular;
-  }
-  .grooming-canin-pricing-text23 {
-    font-family: ChalkboardSE-Regular;
-  }
-  .grooming-canin-pricing-text25 {
-    font-size: 28px;
-  }
-  .grooming-canin-pricing-text27 {
-    font-family: ChalkboardSE-Regular;
-  }
-  .grooming-canin-pricing-text28 {
-    font-family: ChalkboardSE-Regular;
-  }
-  .grooming-canin-pricing-text29 {
-    font-family: ChalkboardSE-Regular;
-  }
-  .grooming-canin-pricing-text30 {
-    font-family: ChalkboardSE-Regular;
-  }
-  .grooming-canin-pricingroot-class-name {
-    padding-bottom: var(--dl-layout-space-unit);
   }
 }
 
 @media (max-width: 1200px) {
-  .grooming-canin-pricing-content {
+  .grooming-canin-pricing-header {
     align-items: center;
   }
-  .grooming-canin-pricing-text10 {
+  .grooming-canin-pricing-header-title {
     font-size: 32px;
   }
-  .grooming-canin-pricing-text11 {
+  .grooming-canin-pricing-header-description {
     font-size: 20px;
   }
-  .grooming-canin-pricing-text14 {
-    font-size: 36px;
+  .grooming-canin-pricing-card-title {
+    font-size: 34px;
   }
-  .grooming-canin-pricing-text15 {
+  .grooming-canin-pricing-card-subtitle {
     font-size: 24px;
   }
-  .grooming-canin-pricing-text16 {
-    font-size: 14px;
-  }
-  .grooming-canin-pricing-text24 {
-    font-size: 36px;
-  }
-  .grooming-canin-pricing-text25 {
-    font-size: 24px;
-  }
-  .grooming-canin-pricing-text26 {
+  .grooming-canin-pricing-card-info {
     font-size: 14px;
   }
 }
 
 @media (max-width: 991px) {
-  .grooming-canin-pricing-text10 {
+  .grooming-canin-pricing-header-title {
     font-size: 30px;
   }
   .grooming-canin-pricing-container {
     flex-direction: column;
   }
-  .grooming-canin-pricing-text14 {
+  .grooming-canin-pricing-card-title {
     font-size: 32px;
   }
-  .grooming-canin-pricing-text15 {
-    font-size: 24px;
-  }
-  .grooming-canin-pricing-text24 {
-    font-size: 32px;
-  }
-  .grooming-canin-pricing-text25 {
+  .grooming-canin-pricing-card-subtitle {
     font-size: 24px;
   }
 }
 
 @media (max-width: 767px) {
-  .grooming-canin-pricing-text10 {
+  .grooming-canin-pricing-header-title {
     font-size: 28px;
   }
-  .grooming-canin-pricing-text11 {
+  .grooming-canin-pricing-header-description {
     font-size: 16px;
   }
-  .grooming-canin-pricing-text14 {
+  .grooming-canin-pricing-card-title {
     font-size: 28px;
   }
-  .grooming-canin-pricing-text15 {
-    font-size: 20px;
-  }
-  .grooming-canin-pricing-text24 {
-    font-size: 28px;
-  }
-  .grooming-canin-pricing-text25 {
+  .grooming-canin-pricing-card-subtitle {
     font-size: 20px;
   }
 }
@@ -458,30 +216,16 @@
   .grooming-canin-pricing-max-width {
     gap: var(--dl-layout-space-oneandhalfunits);
   }
-  .grooming-canin-pricing-text10 {
+  .grooming-canin-pricing-header-title {
     font-size: 26px;
-    font-family: ChalkboardSE-Regular;
   }
-  .grooming-canin-pricing-text14 {
+  .grooming-canin-pricing-card-title {
     font-size: 24px;
   }
-  .grooming-canin-pricing-text15 {
+  .grooming-canin-pricing-card-subtitle {
     font-size: 16px;
   }
-  .grooming-canin-pricing-text16 {
+  .grooming-canin-pricing-card-info {
     font-size: 12px;
-  }
-  .grooming-canin-pricing-text24 {
-    font-size: 24px;
-  }
-  .grooming-canin-pricing-text25 {
-    font-size: 16px;
-  }
-  .grooming-canin-pricing-text26 {
-    font-size: 12px;
-  }
-  .grooming-canin-pricingroot-class-name {
-    padding-top: var(--dl-layout-space-oneandhalfunits);
-    padding-bottom: var(--dl-layout-space-oneandhalfunits);
   }
 }
