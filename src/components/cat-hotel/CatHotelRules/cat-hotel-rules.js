@@ -20,7 +20,7 @@ const CatHotelRules = (props) => {
         <div className="cat-hotel-rules-container3 thq-card">
           <img
             alt=""
-            src="https://images.unsplash.com/photo-1577784424946-e12c7b211249?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0ODU5ODcwN3w&ixlib=rb-4.1.0&q=80&w=300"
+            src="/images/cat-hotel/cat-hotel-checkin.jpg"
             className="cat-hotel-rules-image1 thq-img-ratio-1-1"
           />
           <h2 className="cat-hotel-rules-text11 thq-heading-2">🕓 Check-in</h2>
@@ -31,7 +31,7 @@ const CatHotelRules = (props) => {
         <div className="cat-hotel-rules-container4 thq-card">
           <img
             alt=""
-            src="https://images.unsplash.com/photo-1590890547465-65ca69d8901f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0ODU5ODcxNHw&ixlib=rb-4.1.0&q=80&w=300"
+            src="/images/cat-hotel/cat-hotel-checkout.jpg"
             className="cat-hotel-rules-image2 thq-img-ratio-1-1"
           />
           <h2 className="cat-hotel-rules-text13 thq-heading-2">🕐 Check-out</h2>
@@ -42,7 +42,7 @@ const CatHotelRules = (props) => {
         <div className="cat-hotel-rules-container5 thq-card">
           <img
             alt=""
-            src="https://images.unsplash.com/photo-1574231164645-d6f0e8553590?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0ODU5ODY3M3w&ixlib=rb-4.1.0&q=80&w=300"
+            src="/images/cat-hotel/cat-hotel-conditions.jpg"
             className="cat-hotel-rules-image3 thq-img-ratio-1-1"
           />
           <h2 className="cat-hotel-rules-text15 thq-heading-2">🐱 Condiții</h2>
@@ -55,7 +55,7 @@ const CatHotelRules = (props) => {
         <div className="cat-hotel-rules-container6 thq-card">
           <img
             alt=""
-            src="https://images.unsplash.com/photo-1516841273335-e39b37888115?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0ODU5ODY2Mnw&ixlib=rb-4.1.0&q=80&w=300"
+            src="/images/cat-hotel/cat-hotel-health.jpg"
             className="cat-hotel-rules-image4 thq-img-ratio-1-1"
           />
           <h2 className="cat-hotel-rules-text17 thq-heading-2">💉 Sănătate</h2>
@@ -69,7 +69,7 @@ const CatHotelRules = (props) => {
         <div className="cat-hotel-rules-container7 thq-card">
           <img
             alt=""
-            src="https://images.unsplash.com/flagged/photo-1564228539519-4dfe919785a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0ODU5ODk0OXw&ixlib=rb-4.1.0&q=80&w=300"
+            src="/images/cat-hotel/cat-hotel-sterilization.jpg"
             className="cat-hotel-rules-image5 thq-img-ratio-1-1"
           />
           <h2 className="cat-hotel-rules-text19 thq-heading-2">

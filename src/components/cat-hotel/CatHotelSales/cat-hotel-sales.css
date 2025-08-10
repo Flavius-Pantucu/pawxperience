@@ -1,28 +1,27 @@
-.cat-hotel-sales-testimonial13 {
+.cat-hotel-sales-layout {
   padding-top: var(--dl-layout-space-threeunits);
   padding-bottom: var(--dl-layout-space-threeunits);
-    background-color: var(--dl-color-theme-neutral-light);
-
+  background-color: var(--dl-color-theme-neutral-light);
 }
- 
+
 .cat-hotel-sales-max-width {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
- 
-.cat-hotel-sales-container1 {
+
+.cat-hotel-sales-container {
   gap: var(--dl-layout-space-unit);
   width: 100%;
   margin-bottom: var(--dl-layout-space-oneandhalfunits);
 }
- 
-.cat-hotel-sales-text1 {
+
+.cat-hotel-sales-title {
   width: 100%;
   font-size: 40px;
   font-family: "ChalkboardSE-Regular";
 }
- 
+
 .cat-hotel-sales-container3 {
   gap: var(--dl-layout-space-unit);
   display: flex;
@@ -31,32 +30,32 @@
   flex-direction: row;
   justify-content: center;
 }
- 
+
 .cat-hotel-sales-container4 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: center;
 }
- 
+
 .cat-hotel-sales-text2 {
   font-size: 24px;
   font-family: "ChalkboardSE-Regular";
 }
- 
+
 .cat-hotel-sales-text3 {
   font-size: 22px;
   font-family: "ChalkboardSE-Regular";
 }
- 
+
 .cat-hotel-sales-accent2-bg2 {
   background-color: var(--dl-color-theme-primary1);
 }
- 
+
 .cat-hotel-sales-accent1-bg2 {
   background-color: var(--dl-color-theme-primary2);
 }
- 
+
 .cat-hotel-sales-container5 {
   gap: var(--dl-layout-space-unit);
   display: flex;
@@ -65,32 +64,32 @@
   flex-direction: row;
   justify-content: center;
 }
- 
+
 .cat-hotel-sales-container6 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: center;
 }
- 
+
 .cat-hotel-sales-text4 {
   font-size: 24px;
   font-family: "ChalkboardSE-Regular";
 }
- 
+
 .cat-hotel-sales-text5 {
   font-size: 22px;
   font-family: "ChalkboardSE-Regular";
 }
- 
+
 .cat-hotel-sales-accent2-bg3 {
   background-color: var(--dl-color-theme-primary2);
 }
- 
+
 .cat-hotel-sales-accent1-bg3 {
   background-color: var(--dl-color-theme-secondary2);
 }
- 
+
 .cat-hotel-sales-container7 {
   gap: var(--dl-layout-space-unit);
   display: flex;
@@ -99,32 +98,30 @@
   flex-direction: row;
   justify-content: center;
 }
- 
+
 .cat-hotel-sales-container8 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: center;
 }
- 
+
 .cat-hotel-sales-text6 {
   font-size: 24px;
   font-family: "ChalkboardSE-Regular";
 }
- 
+
 .cat-hotel-sales-text7 {
   font-size: 22px;
   font-family: "ChalkboardSE-Regular";
 }
- 
 
- 
-@media(max-width: 1600px) {
-  .cat-hotel-sales-testimonial13 {
+@media (max-width: 1600px) {
+  .cat-hotel-sales-layout {
     padding-top: var(--dl-layout-space-twounits);
     padding-bottom: var(--dl-layout-space-twounits);
   }
-  .cat-hotel-sales-text1 {
+  .cat-hotel-sales-title {
     font-size: 36px;
   }
   .cat-hotel-sales-text2 {
@@ -142,12 +139,6 @@
   .cat-hotel-sales-text5 {
     font-size: 20px;
   }
-  .cat-hotel-sales-accent2-bg3 {
-    background-color: var(--dl-color-theme-primary2);
-  }
-  .cat-hotel-sales-accent1-bg3 {
-    background-color: var(--dl-color-theme-secondary2);
-  }
   .cat-hotel-sales-text6 {
     font-size: 22px;
   }
@@ -158,9 +149,9 @@
     background-color: transparent;
   }
 }
- 
-@media(max-width: 1200px) {
-  .cat-hotel-sales-text1 {
+
+@media (max-width: 1200px) {
+  .cat-hotel-sales-title {
     font-size: 32px;
     text-align: center;
   }
@@ -183,9 +174,9 @@
     font-size: 18px;
   }
 }
- 
-@media(max-width: 991px) {
-  .cat-hotel-sales-text1 {
+
+@media (max-width: 991px) {
+  .cat-hotel-sales-title {
     font-size: 28px;
   }
   .cat-hotel-sales-text2 {
@@ -207,9 +198,9 @@
     font-size: 16px;
   }
 }
- 
-@media(max-width: 767px) {
-  .cat-hotel-sales-text1 {
+
+@media (max-width: 767px) {
+  .cat-hotel-sales-title {
     font-size: 24px;
   }
   .cat-hotel-sales-text2 {
@@ -231,9 +222,9 @@
     font-size: 14px;
   }
 }
- 
-@media(max-width: 479px) {
-  .cat-hotel-sales-text1 {
+
+@media (max-width: 479px) {
+  .cat-hotel-sales-title {
     font-size: 20px;
   }
   .cat-hotel-sales-text2 {

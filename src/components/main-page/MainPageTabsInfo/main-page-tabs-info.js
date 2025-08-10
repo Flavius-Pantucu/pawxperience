@@ -5,20 +5,20 @@ import "./main-page-tabs-info.css";
 const tabContent = [
   {
     id: 0,
-    img: "https://images.unsplash.com/photo-1699235641495-24115f03f961?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0NzkxODIyNXw&ixlib=rb-4.1.0&q=80&w=1500",
+    img: "/images/main-page/main-page-tab-info1.jpg",
     title: "Cazare Cat Hotel",
     description: "Cazare luxoasă pentru iubitul tău prieten felin.",
   },
   {
     id: 1,
-    img: "https://images.unsplash.com/photo-1505356822725-08ad25f3ffe4?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDQ3fHxhYnN0cmFjdHxlbnwwfHx8fDE3MTYyMDEzMDd8MA&ixlib=rb-4.0.3&w=1500",
+    img: "/images/main-page/main-page-tab-info2.jpg",
     title: "Servicii de îngrijire",
     description:
       "Servicii profesionale de îngrijire adaptate nevoilor câinelui dumneavoastră.",
   },
   {
     id: 2,
-    img: "https://images.unsplash.com/photo-1618172193622-ae2d025f4032?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDg0fHxhYnN0cmFjdHxlbnwwfHx8fDE3MTYyMDE1NTZ8MA&ixlib=rb-4.0.3&w=1500",
+    img: "/images/main-page/main-page-tab-info3.jpg",
     title: "Îngrijire personalizată",
     description: "Îngrijire personalizată pentru fiecare animal de companie.",
   },

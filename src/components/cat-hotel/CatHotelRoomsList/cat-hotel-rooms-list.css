@@ -4,241 +4,109 @@
   display: flex;
   position: relative;
   align-items: center;
-  padding-top: var(--dl-layout-space-threeunits);
-  padding-left: var(--dl-layout-space-fiveunits);
-  padding-right: var(--dl-layout-space-fiveunits);
+  padding: var(--dl-layout-space-threeunits);
   flex-direction: column;
-  padding-bottom: var(--dl-layout-space-threeunits);
   background-color: var(--dl-color-theme-neutral-light);
 }
- 
+
 .cat-hotel-rooms-list-max-width {
   width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
- 
+
 .cat-hotel-rooms-list-content {
   align-self: stretch;
   align-items: flex-start;
 }
- 
-.cat-hotel-rooms-list-li1 {
+
+.cat-hotel-rooms-list-li {
   align-items: flex-start;
 }
- 
-.cat-hotel-rooms-list-heading1 {
+
+.cat-hotel-rooms-list-heading {
   font-size: 40px;
   align-self: flex-start;
   font-family: "ChalkboardSE-Regular";
 }
- 
-.cat-hotel-rooms-list-ul2 {
-  gap: var(--dl-layout-space-oneandhalfunits);
-  align-items: flex-start;
-  padding-left: var(--dl-layout-space-fiveunits);
-}
- 
-.cat-hotel-rooms-list-heading31 {
-  font-size: 26px;
-  font-family: "ChalkboardSE-Regular";
-  font-weight: 400;
-}
- 
-.cat-hotel-rooms-list-heading32 {
-  font-size: 26px;
-  font-family: "ChalkboardSE-Regular";
-  font-weight: 400;
-}
- 
-.cat-hotel-rooms-list-heading33 {
-  font-size: 26px;
-  font-family: "ChalkboardSE-Regular";
-  font-weight: 400;
-}
- 
-.cat-hotel-rooms-list-heading34 {
-  font-size: 26px;
-  font-family: "ChalkboardSE-Regular";
-  font-weight: 400;
-}
- 
-.cat-hotel-rooms-list-heading35 {
-  font-size: 26px;
-  font-family: "ChalkboardSE-Regular";
-  font-weight: 400;
-}
- 
 
- 
-@media(max-width: 1600px) {
-  .cat-hotel-rooms-list-li1 {
-    gap: var(--dl-layout-space-unit);
-  }
-  .cat-hotel-rooms-list-heading1 {
+.cat-hotel-rooms-list-details-ul {
+  align-items: flex-start;
+  padding-left: var(--dl-layout-space-twounits);
+}
+
+.cat-hotel-rooms-list-details-item-text {
+  font-size: 26px;
+  font-family: "ChalkboardSE-Regular";
+  font-weight: 400;
+}
+
+@media (max-width: 1600px) {
+  .cat-hotel-rooms-list-heading {
     font-size: 36px;
   }
-  .cat-hotel-rooms-list-ul2 {
-    gap: var(--dl-layout-space-oneandhalfunits);
-    height: 287px;
-  }
-  .cat-hotel-rooms-list-li2 {
-    font-family: ChalkboardSE-Regular;
-  }
-  .cat-hotel-rooms-list-heading31 {
+
+  .cat-hotel-rooms-list-details-item-text {
     font-size: 24px;
-  }
-  .cat-hotel-rooms-list-li3 {
-    font-family: ChalkboardSE-Regular;
-  }
-  .cat-hotel-rooms-list-heading32 {
-    font-size: 24px;
-  }
-  .cat-hotel-rooms-list-li4 {
-    font-family: ChalkboardSE-Regular;
-  }
-  .cat-hotel-rooms-list-heading33 {
-    font-size: 24px;
-  }
-  .cat-hotel-rooms-list-li5 {
-    font-family: ChalkboardSE-Regular;
-  }
-  .cat-hotel-rooms-list-heading34 {
-    font-size: 24px;
-  }
-  .cat-hotel-rooms-list-li6 {
-    font-family: ChalkboardSE-Regular;
-  }
-  .cat-hotel-rooms-list-heading35 {
-    font-size: 24px;
-  }
-  .cat-hotel-rooms-listroot-class-name {
-    background-color: transparent;
   }
 }
- 
-@media(max-width: 1200px) {
-  .cat-hotel-rooms-list-container {
-    padding-left: var(--dl-layout-space-fourunits);
-    padding-right: var(--dl-layout-space-fourunits);
-  }
-  .cat-hotel-rooms-list-heading1 {
+
+@media (max-width: 1200px) {
+  .cat-hotel-rooms-list-heading {
     width: 100%;
     font-size: 32px;
     text-align: center;
   }
-  .cat-hotel-rooms-list-heading31 {
-    font-size: 22px;
-  }
-  .cat-hotel-rooms-list-heading32 {
-    font-size: 22px;
-  }
-  .cat-hotel-rooms-list-heading33 {
-    font-size: 22px;
-  }
-  .cat-hotel-rooms-list-heading34 {
-    font-size: 22px;
-  }
-  .cat-hotel-rooms-list-heading35 {
+  .cat-hotel-rooms-list-details-item-text {
     font-size: 22px;
   }
 }
- 
-@media(max-width: 991px) {
-  .cat-hotel-rooms-list-container {
-    padding-left: var(--dl-layout-space-threeunits);
-    padding-right: var(--dl-layout-space-threeunits);
-  }
-  .cat-hotel-rooms-list-heading1 {
+
+@media (max-width: 991px) {
+  .cat-hotel-rooms-list-heading {
     font-size: 28px;
   }
-  .cat-hotel-rooms-list-ul2 {
+  .cat-hotel-rooms-list-details-ul {
     gap: var(--dl-layout-space-unit);
   }
-  .cat-hotel-rooms-list-heading31 {
-    font-size: 20px;
-  }
-  .cat-hotel-rooms-list-heading32 {
-    font-size: 20px;
-  }
-  .cat-hotel-rooms-list-heading33 {
-    font-size: 20px;
-  }
-  .cat-hotel-rooms-list-heading34 {
-    font-size: 20px;
-  }
-  .cat-hotel-rooms-list-heading35 {
+  .cat-hotel-rooms-list-details-item-text {
     font-size: 20px;
   }
 }
- 
-@media(max-width: 767px) {
+
+@media (max-width: 767px) {
   .cat-hotel-rooms-list-container {
     padding-left: var(--dl-layout-space-twounits);
     padding-right: var(--dl-layout-space-twounits);
   }
-  .cat-hotel-rooms-list-heading1 {
+  .cat-hotel-rooms-list-heading {
     font-size: 24px;
   }
-  .cat-hotel-rooms-list-ul2 {
+  .cat-hotel-rooms-list-details-ul {
     padding-left: var(--dl-layout-space-threeunits);
   }
-  .cat-hotel-rooms-list-heading31 {
-    font-size: 18px;
-  }
-  .cat-hotel-rooms-list-heading32 {
-    font-size: 18px;
-  }
-  .cat-hotel-rooms-list-heading33 {
-    font-size: 18px;
-  }
-  .cat-hotel-rooms-list-heading34 {
-    font-size: 18px;
-  }
-  .cat-hotel-rooms-list-heading35 {
+  .cat-hotel-rooms-list-details-item-text {
     font-size: 18px;
   }
 }
- 
-@media(max-width: 479px) {
+
+@media (max-width: 479px) {
   .cat-hotel-rooms-list-container {
-    height: auto;
     padding-left: var(--dl-layout-space-unit);
     padding-right: var(--dl-layout-space-unit);
   }
   .cat-hotel-rooms-list-li1 {
     gap: var(--dl-layout-space-halfunit);
   }
-  .cat-hotel-rooms-list-heading1 {
+  .cat-hotel-rooms-list-heading {
     font-size: 20px;
   }
-  .cat-hotel-rooms-list-ul2 {
+  .cat-hotel-rooms-list-details-ul {
     gap: var(--dl-layout-space-unit);
-    height: auto;
     padding-left: var(--dl-layout-space-oneandhalfunits);
   }
-  .cat-hotel-rooms-list-heading31 {
+  .cat-hotel-rooms-list-details-item-text {
     font-size: 16px;
-    font-family: ChalkboardSE-Regular;
-    font-weight: 400;
-  }
-  .cat-hotel-rooms-list-heading32 {
-    font-size: 16px;
-  }
-  .cat-hotel-rooms-list-heading33 {
-    font-size: 16px;
-  }
-  .cat-hotel-rooms-list-heading34 {
-    font-size: 16px;
-  }
-  .cat-hotel-rooms-list-heading35 {
-    font-size: 16px;
-  }
-  .cat-hotel-rooms-listroot-class-name {
-    padding-top: var(--dl-layout-space-oneandhalfunits);
-    padding-left: var(--dl-layout-space-oneandhalfunits);
-    padding-right: var(--dl-layout-space-oneandhalfunits);
-    padding-bottom: var(--dl-layout-space-oneandhalfunits);
   }
 }

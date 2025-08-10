@@ -1,10 +1,8 @@
 import React, { useState } from "react";
 
-import PropTypes from "prop-types";
-
 import "./cat-hotel-faq.css";
 
-const CatHotelFAQ = (props) => {
+const CatHotelFAQ = () => {
   const [faq1Visible, setFaq1Visible] = useState(false);
   const [faq2Visible, setFaq2Visible] = useState(false);
   const [faq3Visible, setFaq3Visible] = useState(false);
@@ -18,9 +16,7 @@ const CatHotelFAQ = (props) => {
   const [faq11Visible, setFaq11Visible] = useState(false);
   const [faq12Visible, setFaq12Visible] = useState(false);
   return (
-    <div
-      className={`cat-hotel-faqfaq8 thq-section-padding ${props.rootClassName} `}
-    >
+    <div className="cat-hotel-faqfaq8 thq-section-padding">
       <div className="cat-hotel-faq-max-width thq-section-max-width">
         <div className="thq-section-max-width thq-flex-column cat-hotel-faq-container10">
           <div className="cat-hotel-faq-section-title">
@@ -617,12 +613,7 @@ const CatHotelFAQ = (props) => {
           <div className="cat-hotel-faq-content3">
             <h2 className="cat-hotel-faq-heading12 thq-heading-2">
               Pentru întrebări suplimentare ne puteți contacta la numărul de
-              WhatsApp sau pe mail.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: " ",
-                }}
-              />
+              WhatsApp sau pe email.
             </h2>
             <span className="cat-hotel-faq-text64">
               🔒 Locurile sunt limitate – rezervă din timp pentru perioadele
@@ -633,14 +624,6 @@ const CatHotelFAQ = (props) => {
       </div>
     </div>
   );
-};
-
-CatHotelFAQ.defaultProps = {
-  rootClassName: "",
-};
-
-CatHotelFAQ.propTypes = {
-  rootClassName: PropTypes.string,
 };
 
 export default CatHotelFAQ;

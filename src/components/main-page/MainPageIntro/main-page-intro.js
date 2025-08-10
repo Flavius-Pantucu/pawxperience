@@ -7,32 +7,32 @@ import "./main-page-intro.css";
 const firstRowImages = [
   <img
     alt=""
-    src="https://images.unsplash.com/photo-1519670107408-15dc1b3ecb1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0NzkwODQ0OHw&ixlib=rb-4.1.0&q=80&w=1080"
+    src="/images/main-page/main-page-intro1.jpg"
     className="main-page-intro-image thq-img-ratio-1-1 thq-img-scale"
   />,
   <img
     alt=""
-    src="https://images.unsplash.com/photo-1507568237455-03228e5ddb7e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0NzkwODQ0Nnw&ixlib=rb-4.1.0&q=80&w=1080"
+    src="/images/main-page/main-page-intro2.jpg"
     className="main-page-intro-image thq-img-ratio-1-1 thq-img-scale"
   />,
   <img
     alt=""
-    src="https://images.unsplash.com/photo-1615884241403-c5ee2e600bef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0NzkwODQ0Nnw&ixlib=rb-4.1.0&q=80&w=1080"
+    src="/images/main-page/main-page-intro3.jpg"
     className="main-page-intro-image thq-img-ratio-1-1 thq-img-scale"
   />,
   <img
     alt=""
-    src="https://images.unsplash.com/photo-1579532582940-957ceba4f373?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0NzkwODQ0N3w&ixlib=rb-4.1.0&q=80&w=1080"
+    src="/images/main-page/main-page-intro4.jpg"
     className="main-page-intro-image thq-img-ratio-1-1 thq-img-scale"
   />,
   <img
     alt=""
-    src="https://images.unsplash.com/photo-1501743029101-21a00d6a3fb9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0NzkwODQ0N3w&ixlib=rb-4.1.0&q=80&w=1080"
+    src="/images/main-page/main-page-intro5.jpg"
     className="main-page-intro-image thq-img-ratio-1-1 thq-img-scale"
   />,
   <img
     alt=""
-    src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0NzkxNjI1OHw&ixlib=rb-4.1.0&q=80&w=1080"
+    src="/images/main-page/main-page-intro6.jpg"
     className="main-page-intro-image thq-img-ratio-1-1 thq-img-scale"
   />,
 ];

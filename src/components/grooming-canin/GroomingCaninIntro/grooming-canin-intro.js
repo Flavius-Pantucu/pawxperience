@@ -3,16 +3,16 @@ import React from "react";
 import "./grooming-canin-intro.css";
 
 const firstRowPhotos = [
-  "/images/grooming-canin-intro-photo5.jpg",
-  "/images/grooming-canin-intro-photo2.jpg",
-  "/images/grooming-canin-intro-photo3.jpg",
+  "/images/grooming-canin/grooming-canin-intro-photo5.jpg",
+  "/images/grooming-canin/grooming-canin-intro-photo2.jpg",
+  "/images/grooming-canin/grooming-canin-intro-photo3.jpg",
 ];
 
 const secondRowPhotos = [
-  "/images/grooming-canin-intro-photo4.jpg",
-  "/images/grooming-canin-intro-photo1.jpg",
-  "/images/grooming-canin-intro-photo7.jpg",
-  "/images/grooming-canin-intro-photo6.jpg",
+  "/images/grooming-canin/grooming-canin-intro-photo4.jpg",
+  "/images/grooming-canin/grooming-canin-intro-photo1.jpg",
+  "/images/grooming-canin/grooming-canin-intro-photo7.jpg",
+  "/images/grooming-canin/grooming-canin-intro-photo6.jpg",
 ];
 
 const GroomingCaninIntro = () => {

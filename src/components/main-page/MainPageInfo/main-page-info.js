@@ -5,21 +5,21 @@ import "./main-page-info.css";
 const tabContent = [
   {
     id: 0,
-    img: "https://images.unsplash.com/photo-1626282874430-c11ae32d2898?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE1NHx8YWJzdHJhY3R8ZW58MHx8fHwxNzE2MjAxNjAyfDA&ixlib=rb-4.0.3&w=1500",
+    img: "/images/main-page/main-page-info1.jpg",
     title: "Grijă personalizată pentru fiecare companion",
     description:
       "Fiecare animal este unic, de aceea oferim servicii personalizate adaptate nevoilor individuale. Echipa noastră dedicată asigură atenție specială fiecărui oaspete, pentru confort și siguranță maximă.",
   },
   {
     id: 1,
-    img: "https://images.unsplash.com/photo-1505356822725-08ad25f3ffe4?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDQ3fHxhYnN0cmFjdHxlbnwwfHx8fDE3MTYyMDEzMDd8MA&ixlib=rb-4.0.3&w=1500",
+    img: "/images/main-page/main-page-info2.jpg",
     title: "Produse naturale și de înaltă calitate",
     description:
       "Folosim doar produse premium, naturale și blânde cu pielea și blana animalelor, pentru o îngrijire eficientă și delicată, care păstrează sănătatea și strălucirea acestora.",
   },
   {
     id: 2,
-    img: "https://images.unsplash.com/photo-1618172193622-ae2d025f4032?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDg0fHxhYnN0cmFjdHxlbnwwfHx8fDE3MTYyMDE1NTZ8MA&ixlib=rb-4.0.3&w=1500",
+    img: "/images/main-page/main-page-info3.jpg",
     title: " Mediu curat și prietenos",
     description:
       "Spațiile noastre sunt amenajate cu grijă pentru a oferi un ambient relaxant și igienic, astfel încât animalele să se simtă ca acasă, fie că sunt cazate în hotel sau la grooming.",

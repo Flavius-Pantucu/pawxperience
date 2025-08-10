@@ -1,47 +1,53 @@
-import React, { useState } from "react";
+import React from "react";
 
 import "./cat-hotel-pricing.css";
 
-const CatHotelPricing = (props) => {
-  const [isMonthly, setIsMonthly] = useState(true);
+const roomsTypes = [
+  {
+    name: "Economy - Candy Nest🧸",
+    price: "100 lei",
+  },
+  {
+    name: "Standard - Bubble Lounge🍓 (extra 15 min de joaca)",
+    price: "120 lei",
+  },
+  {
+    name: "VIP - Meow Pawlace👑 (extra 15 min de joaca + hrana umeda)",
+    price: "140 lei",
+  },
+];
+
+const CatHotelPricing = () => {
   return (
-    <div className="cat-hotel-pricing-pricing23 thq-section-padding">
+    <div className="cat-hotel-pricing-layout thq-section-padding">
       <div className="cat-hotel-pricing-max-width thq-section-max-width">
-        {isMonthly === true && (
-          <div className="cat-hotel-pricing-container1">
-            <div className="cat-hotel-pricing-card thq-card thq-flex-column">
-              <h2 className="cat-hotel-pricing-text1 thq-heading-2">
-                🧁 Tipuri de Căsuțe disponibile:
-              </h2>
-              <div className="cat-hotel-pricing-container2">
-                <ul className="cat-hotel-pricing-ul1 list">
-                  <li className="cat-hotel-pricing-li1 list-item">
-                    <span className="cat-hotel-pricing-text2">Tip</span>
-                    <span className="cat-hotel-pricing-text6">Preț/Noapte</span>
-                  </li>
-                  <li className="cat-hotel-pricing-li2 list-item">
-                    <span className="cat-hotel-pricing-text3">
-                      Economy- Candy Nest🧸
+        <div className="cat-hotel-pricing-container">
+          <div className="cat-hotel-pricing-card thq-card thq-flex-column">
+            <h2 className="cat-hotel-pricing-title thq-heading-2">
+              🧁 Tipuri de Căsuțe disponibile:
+            </h2>
+            <div className="cat-hotel-pricing-rooms-container">
+              <ul className="cat-hotel-pricing-ul list">
+                <li className="list-item">
+                  <span className="cat-hotel-pricing-row-header">Tip</span>
+                  <span className="cat-hotel-pricing-row-header">
+                    Preț/Noapte
+                  </span>
+                </li>
+                {roomsTypes.map((room, index) => (
+                  <li key={index} className="list-item">
+                    <span className="cat-hotel-pricing-row-text">
+                      {room.name}
                     </span>
-                    <span className="cat-hotel-pricing-text7">100 lei</span>
-                  </li>
-                  <li className="cat-hotel-pricing-li3 list-item">
-                    <span className="cat-hotel-pricing-text4">
-                      Standard- Bubble Lounge🍓 (extra 15 min de joaca)
+                    <span className="cat-hotel-pricing-row-text">
+                      {room.price}
                     </span>
-                    <span className="cat-hotel-pricing-text8">120 lei</span>
                   </li>
-                  <li className="cat-hotel-pricing-li4 list-item">
-                    <span className="cat-hotel-pricing-text5">
-                      VIP- Meow Pawlace👑 (extra 15 min de joaca + hrana umeda)
-                    </span>
-                    <span className="cat-hotel-pricing-text9">140 lei</span>
-                  </li>
-                </ul>
-              </div>
+                ))}
+              </ul>
             </div>
           </div>
-        )}
+        </div>
       </div>
     </div>
   );

@@ -1,17 +1,28 @@
 import React from "react";
 
-import PropTypes from "prop-types";
-
 import "./cat-hotel-sales.css";
 
-const CatHotelSales = (props) => {
+const sales = [
+  {
+    discount: "🐾 5% reducere",
+    condition: "Pentru șederi între 7–20 nopți",
+  },
+  {
+    discount: "🐾 10% reducere",
+    condition: "Pentru șederi între 21–30 nopți",
+  },
+  {
+    discount: "🐾 15% reducere",
+    condition: "Pentru șederi de peste 30 nopți",
+  },
+];
+
+const CatHotelSales = () => {
   return (
-    <div
-      className={`cat-hotel-sales-testimonial13 thq-section-padding ${props.rootClassName} `}
-    >
+    <div className="cat-hotel-sales-layout thq-section-padding">
       <div className="cat-hotel-sales-max-width thq-section-max-width">
-        <div className="cat-hotel-sales-container1">
-          <h2 className="cat-hotel-sales-text1">
+        <div className="cat-hotel-sales-container">
+          <h2 className="cat-hotel-sales-title">
             📅 Reduceri pentru șederi mai lungi:
           </h2>
         </div>
@@ -32,7 +43,7 @@ const CatHotelSales = (props) => {
               </div>
             </div>
           </div>
-          <div className="cat-hotel-sales-accent2-bg3 thq-animated-card-bg-2">
+          <div className="cat-hotel-sales-accent2-bg3">
             <div className="cat-hotel-sales-accent1-bg3 thq-animated-card-bg-1">
               <div data-animated="true" className="thq-card">
                 <div className="cat-hotel-sales-container5">
@@ -48,7 +59,7 @@ const CatHotelSales = (props) => {
               </div>
             </div>
           </div>
-          <div className="cat-hotel-sales-accent2-bg2 thq-animated-card-bg-2">
+          <div className="cat-hotel-sales-accent2-bg2">
             <div className="cat-hotel-sales-accent1-bg2 thq-animated-card-bg-1">
               <div data-animated="true" className="thq-card">
                 <div className="cat-hotel-sales-container7">
@@ -68,14 +79,6 @@ const CatHotelSales = (props) => {
       </div>
     </div>
   );
-};
-
-CatHotelSales.defaultProps = {
-  rootClassName: "",
-};
-
-CatHotelSales.propTypes = {
-  rootClassName: PropTypes.string,
 };
 
 export default CatHotelSales;
