@@ -407,7 +407,7 @@ html {
 }
 
 .thq-animated-group-horizontal-reverse {
-  gap: var(--dl-layout-space-unit);
+  gap: var(--dl-layout-space-halfunit);
   display: flex;
   animation: scroll-x 20s linear infinite;
   min-width: 100%;

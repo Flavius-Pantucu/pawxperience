@@ -90,6 +90,10 @@
   .main-page-intro-description {
     font-size: 14px;
   }
+  .main-page-intro-image {
+    width: 300px;
+    height: 300px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -107,5 +111,9 @@
   }
   .main-page-intro-title {
     font-size: 28px;
+  }
+  .main-page-intro-image {
+    width: 200px;
+    height: 200px;
   }
 }
