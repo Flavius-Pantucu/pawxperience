@@ -5,6 +5,7 @@ import PropTypes from "prop-types";
 import "./contact.css";
 import {
   FaEnvelope,
+  FaFacebook,
   FaInstagram,
   FaMapMarkerAlt,
   FaWhatsapp,
@@ -23,14 +24,44 @@ const data = [
     title: "Telefon",
     description:
       "Pentru întrebări sau rezervări, vă rugăm să ne contactați prin telefon.",
-    value: "+40 775 655 787",
+    value: (
+      <span>
+        WhatsApp:{" "}
+        <a target="_blank" href="https://wa.me/40775655787">
+          +40 775 655 787
+        </a>
+      </span>
+    ),
   },
   {
-    icon: <FaInstagram size={36} color="#E1306C" />,
+    icon: (
+      <>
+        <FaInstagram size={36} color="#E1306C" />
+        <FaFacebook size={36} color="#1877F2" />
+      </>
+    ),
     title: "Social Media",
     description:
       "Urmăriți-ne pe rețelele de socializare pentru actualizări și promoții!",
-    value: "Instagram: @pawxperience4pets",
+    value: (
+      <>
+        <span>
+          Instagram:{" "}
+          <a target="_blank" href="https://www.instagram.com/pawxperience4pets">
+            @pawxperience4pets
+          </a>
+        </span>
+        <span>
+          Facebook:{" "}
+          <a
+            target="_blank"
+            href="https://www.facebook.com/profile.php?id=61579054597784&mibextid=wwXIfr&rdid=V8AfxvRcUgFI1D0n&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1B932135nq%2F%3Fmibextid%3DwwXIfr"
+          >
+            PawXperience Cathotel & Grooming Canin
+          </a>
+        </span>
+      </>
+    ),
   },
   {
     icon: <FaMapMarkerAlt size={36} color="#4285F4" />,
@@ -43,7 +74,10 @@ const data = [
 
 const Contact = () => {
   return (
-    <div className="contact-container thq-section-padding">
+    <div
+      id="contact-component"
+      className="contact-container thq-section-padding"
+    >
       <div className="contact-max-width thq-section-max-width">
         <div className="contact-section-title">
           <div className="contact-title-content">

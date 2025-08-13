@@ -10,21 +10,21 @@
   justify-content: center;
   background-color: var(--dl-color-theme-neutral-light);
 }
- 
+
 .cat-hotel-rules-heading1 {
   width: 100%;
   font-size: 40px;
   font-family: "ChalkboardSE-Regular";
   margin-bottom: var(--dl-layout-space-oneandhalfunits);
 }
- 
+
 .cat-hotel-rules-text10 {
   width: 100%;
   font-size: 22px;
   font-family: "ChalkboardSE-Regular";
   margin-bottom: var(--dl-layout-space-oneandhalfunits);
 }
- 
+
 .cat-hotel-rules-container2 {
   gap: var(--dl-layout-space-unit);
   flex: 1;
@@ -33,11 +33,11 @@
   align-items: flex-start;
   flex-direction: row;
 }
- 
+
 .cat-hotel-rules-container3 {
   flex: 1;
   display: flex;
-  padding: var(--dl-layout-space-threeunits);
+  padding: var(--dl-layout-space-twounits);
   position: relative;
   align-self: stretch;
   align-items: center;
@@ -45,26 +45,26 @@
   justify-content: flex-start;
   background-color: var(--dl-color-theme-accent2);
 }
- 
+
 .cat-hotel-rules-image1 {
   max-width: var(--dl-layout-size-xxlarge);
 }
- 
+
 .cat-hotel-rules-text11 {
   font-size: 36px;
   font-family: "ChalkboardSE-Regular";
 }
- 
+
 .cat-hotel-rules-text12 {
   font-size: 22px;
   text-align: center;
   font-family: "ChalkboardSE-Regular";
 }
- 
+
 .cat-hotel-rules-container4 {
   flex: 1;
   display: flex;
-  padding: var(--dl-layout-space-threeunits);
+  padding: var(--dl-layout-space-twounits);
   position: relative;
   align-self: stretch;
   align-items: center;
@@ -72,26 +72,26 @@
   justify-content: flex-start;
   background-color: var(--dl-color-theme-accent1);
 }
- 
+
 .cat-hotel-rules-image2 {
   max-width: var(--dl-layout-size-xxlarge);
 }
- 
+
 .cat-hotel-rules-text13 {
   font-size: 36px;
   font-family: "ChalkboardSE-Regular";
 }
- 
+
 .cat-hotel-rules-text14 {
   font-size: 22px;
   text-align: center;
   font-family: "ChalkboardSE-Regular";
 }
- 
+
 .cat-hotel-rules-container5 {
   flex: 1;
   display: flex;
-  padding: var(--dl-layout-space-threeunits);
+  padding: var(--dl-layout-space-twounits);
   position: relative;
   align-self: stretch;
   align-items: center;
@@ -99,26 +99,26 @@
   justify-content: flex-start;
   background-color: var(--dl-color-theme-secondary2);
 }
- 
+
 .cat-hotel-rules-image3 {
   max-width: var(--dl-layout-size-xxlarge);
 }
- 
+
 .cat-hotel-rules-text15 {
-  font-size: 36px;
+  font-size: 32px;
   font-family: "ChalkboardSE-Regular";
 }
- 
+
 .cat-hotel-rules-text16 {
   font-size: 22px;
   text-align: center;
   font-family: "ChalkboardSE-Regular";
 }
- 
+
 .cat-hotel-rules-container6 {
   flex: 1;
   display: flex;
-  padding: var(--dl-layout-space-threeunits);
+  padding: var(--dl-layout-space-twounits);
   position: relative;
   align-self: stretch;
   align-items: center;
@@ -126,26 +126,26 @@
   justify-content: flex-start;
   background-color: var(--dl-color-theme-primary2);
 }
- 
+
 .cat-hotel-rules-image4 {
   max-width: var(--dl-layout-size-xxlarge);
 }
- 
+
 .cat-hotel-rules-text17 {
   font-size: 36px;
   font-family: "ChalkboardSE-Regular";
 }
- 
+
 .cat-hotel-rules-text18 {
   font-size: 22px;
   text-align: center;
   font-family: "ChalkboardSE-Regular";
 }
- 
+
 .cat-hotel-rules-container7 {
   flex: 1;
   display: flex;
-  padding: var(--dl-layout-space-threeunits);
+  padding: var(--dl-layout-space-twounits);
   position: relative;
   align-self: stretch;
   align-items: center;
@@ -153,25 +153,23 @@
   justify-content: flex-start;
   background-color: var(--dl-color-theme-primary1);
 }
- 
+
 .cat-hotel-rules-image5 {
   max-width: var(--dl-layout-size-xxlarge);
 }
- 
+
 .cat-hotel-rules-text19 {
   font-size: 36px;
   font-family: "ChalkboardSE-Regular";
 }
- 
+
 .cat-hotel-rules-text20 {
   font-size: 22px;
   text-align: center;
   font-family: "ChalkboardSE-Regular";
 }
- 
 
- 
-@media(max-width: 1600px) {
+@media (max-width: 1600px) {
   .cat-hotel-rules-container1 {
     padding: var(--dl-layout-space-twounits);
   }
@@ -230,8 +228,8 @@
     background-color: transparent;
   }
 }
- 
-@media(max-width: 1200px) {
+
+@media (max-width: 1200px) {
   .cat-hotel-rules-heading1 {
     font-size: 32px;
     text-align: center;
@@ -313,8 +311,8 @@
     font-size: 24px;
   }
 }
- 
-@media(max-width: 991px) {
+
+@media (max-width: 991px) {
   .cat-hotel-rules-heading1 {
     font-size: 28px;
   }
@@ -367,8 +365,8 @@
     font-size: 20px;
   }
 }
- 
-@media(max-width: 767px) {
+
+@media (max-width: 767px) {
   .cat-hotel-rules-heading1 {
     font-size: 24px;
   }
@@ -406,8 +404,8 @@
     font-size: 18px;
   }
 }
- 
-@media(max-width: 479px) {
+
+@media (max-width: 479px) {
   .cat-hotel-rules-heading1 {
     font-size: 20px;
   }

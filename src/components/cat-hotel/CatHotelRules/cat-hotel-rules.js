@@ -23,7 +23,7 @@ const CatHotelRules = (props) => {
             src="/images/cat-hotel/cat-hotel-checkin.jpg"
             className="cat-hotel-rules-image1 thq-img-ratio-1-1"
           />
-          <h2 className="cat-hotel-rules-text11 thq-heading-2">🕓 Check-in</h2>
+          <h2 className="cat-hotel-rules-text15 thq-heading-2">🕓 Check-in</h2>
           <span className="cat-hotel-rules-text12 thq-body-small">
             16:00–18:00 (Luni–Duminică)
           </span>
@@ -34,7 +34,7 @@ const CatHotelRules = (props) => {
             src="/images/cat-hotel/cat-hotel-checkout.jpg"
             className="cat-hotel-rules-image2 thq-img-ratio-1-1"
           />
-          <h2 className="cat-hotel-rules-text13 thq-heading-2">🕐 Check-out</h2>
+          <h2 className="cat-hotel-rules-text15 thq-heading-2">🕐 Check-out</h2>
           <span className="cat-hotel-rules-text14 thq-body-small">
             11:00–13:00 (Luni–Duminică)
           </span>
@@ -45,7 +45,9 @@ const CatHotelRules = (props) => {
             src="/images/cat-hotel/cat-hotel-conditions.jpg"
             className="cat-hotel-rules-image3 thq-img-ratio-1-1"
           />
-          <h2 className="cat-hotel-rules-text15 thq-heading-2">🐱 Condiții</h2>
+          <h2 className="cat-hotel-rules-text15 thq-heading-2">
+            🐱 Pregătirea pisicuței
+          </h2>
           <span className="cat-hotel-rules-text16 thq-body-small">
             Pisicuța ta va veni în cușca proprie, cu gheruțele tăiate și
             carnetul de sănătate la zi (vaccinuri + deparazitări interne și
@@ -58,7 +60,9 @@ const CatHotelRules = (props) => {
             src="/images/cat-hotel/cat-hotel-health.jpg"
             className="cat-hotel-rules-image4 thq-img-ratio-1-1"
           />
-          <h2 className="cat-hotel-rules-text17 thq-heading-2">💉 Sănătate</h2>
+          <h2 className=".cat-hotel-rules-text15 thq-heading-2">
+            💕 Stare de bine
+          </h2>
           <span className="cat-hotel-rules-text18 thq-body-small">
             Acceptăm doar pisicuțe sănătoase, fără boli transmisibile și sa nu
             necesite tratament intensiv (oxigen, perfuzoare, monitorizare
@@ -72,8 +76,8 @@ const CatHotelRules = (props) => {
             src="/images/cat-hotel/cat-hotel-sterilization.jpg"
             className="cat-hotel-rules-image5 thq-img-ratio-1-1"
           />
-          <h2 className="cat-hotel-rules-text19 thq-heading-2">
-            🌸 Sterilitate
+          <h2 className=".cat-hotel-rules-text15 thq-heading-2">
+            🌸 Prietenie între blănoși
           </h2>
           <span className="cat-hotel-rules-text20 thq-body-small">
             Pisicuțele (masculi și femele) de peste 1 an și 6 luni trebuie să

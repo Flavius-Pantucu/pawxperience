@@ -60,8 +60,14 @@ const GroomingCaninExtraServices = () => {
             📸 Și la sfârșit facem o poza în photocornerul PawXperience!
           </span>
           <span className="grooming-canin-extra-services-footer-info thq-body-small">
-            📲 Programează acum o sesiune de răsfăț! *(buton cu link WhatsApp
-            sau rezervare)*
+            📲 Programează acum o sesiune de răsfăț!{" "}
+            <a
+              target="_blank"
+              href="https://wa.me/40775655787"
+              style={{ textDecoration: "underline" }}
+            >
+              +40 775 655 787
+            </a>
           </span>
         </div>
       </div>

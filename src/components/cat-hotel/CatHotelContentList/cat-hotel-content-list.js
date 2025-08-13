@@ -24,7 +24,7 @@ const CatHotelContentList = (props) => {
                 </li>
                 <li className="list-item cat-hotel-content-list-li3">
                   <h3 className="cat-hotel-content-list-heading32 thq-heading-3">
-                    Hrană de calitate (PetKult, Royal Canin, Lily’s Kitchen)
+                    Hrană de calitate (N&D, Lily’s Kitchen, Royal Canin)
                   </h3>
                 </li>
                 <li className="list-item cat-hotel-content-list-li4">

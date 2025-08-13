@@ -40,32 +40,32 @@ const firstRowImages = [
 const secondRowImages = [
   <img
     alt=""
-    src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0NzkwODQ0Nnw&ixlib=rb-4.1.0&q=80&w=1080"
+    src="/images/main-page/main-page-intro7.jpg"
     className="main-page-intro-image thq-img-ratio-1-1 thq-img-scale"
   />,
   <img
     alt=""
-    src="https://images.unsplash.com/photo-1533292362155-d79af6b08b77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0NzkwODQ0N3w&ixlib=rb-4.1.0&q=80&w=1080"
+    src="/images/main-page/main-page-intro8.jpg"
     className="main-page-intro-image thq-img-ratio-1-1 thq-img-scale"
   />,
   <img
     alt=""
-    src="https://images.unsplash.com/photo-1510020553968-30f966e1ec9e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0NzkwODQ0N3w&ixlib=rb-4.1.0&q=80&w=1080"
+    src="/images/main-page/main-page-intro9.jpg"
     className="main-page-intro-image thq-img-ratio-1-1 thq-img-scale"
   />,
   <img
     alt=""
-    src="https://images.unsplash.com/photo-1551033406-611cf9a28f67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0NzkwODQ0OHw&ixlib=rb-4.1.0&q=80&w=1080"
+    src="/images/main-page/main-page-intro10.jpg"
     className="main-page-intro-image thq-img-ratio-1-1 thq-img-scale"
   />,
   <img
     alt=""
-    src="https://images.unsplash.com/photo-1534568970742-20b523b5f79f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0NzkwODQ0Nnw&ixlib=rb-4.1.0&q=80&w=1080"
+    src="/images/main-page/main-page-intro11.jpg"
     className="main-page-intro-image thq-img-ratio-1-1 thq-img-scale"
   />,
   <img
     alt=""
-    src="https://images.unsplash.com/photo-1712617146928-51ab5aabc341?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0NzkwODQ0N3w&ixlib=rb-4.1.0&q=80&w=1080"
+    src="/images/main-page/main-page-intro12.jpg"
     className="main-page-intro-image thq-img-ratio-1-1 thq-img-scale"
   />,
 ];

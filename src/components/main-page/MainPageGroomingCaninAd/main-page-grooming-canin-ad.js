@@ -28,14 +28,11 @@ const MainPageGroomingCaninAd = () => {
                 </p>
               </div>
               <div className="main-page-grooming-canin-ad-actions">
-                <Link
-                  to="/"
-                  className="main-page-grooming-canin-ad-navlink thq-button-filled"
-                >
+                <div className="main-page-grooming-canin-ad-navlink thq-button-filled">
                   <span className="main-page-grooming-canin-ad-button-text">
-                    Programează-te acum
+                    <a href="#contact-component">Programează-te acum</a>
                   </span>
-                </Link>
+                </div>
               </div>
             </div>
           </div>

@@ -22,10 +22,6 @@ const cards = [
         weight: "🐾 30 – 40 kg",
         price: "300 lei",
       },
-      {
-        weight: "🐻 40 – 50 kg",
-        price: "350 lei",
-      },
     ],
   },
   {
@@ -33,23 +29,19 @@ const cards = [
     items: [
       {
         weight: "🐶 Sub 10 kg",
-        price: "180 lei",
+        price: "100 lei",
       },
       {
         weight: "🐕 10 – 20 kg",
-        price: "210 lei",
+        price: "130 lei",
       },
       {
         weight: "🐕 20 – 30 kg",
-        price: "260 lei",
+        price: "150 lei",
       },
       {
         weight: "🐾 30 – 40 kg",
-        price: "310 lei",
-      },
-      {
-        weight: "🐻 40 – 50 kg",
-        price: "360 lei",
+        price: "200 lei",
       },
     ],
   },

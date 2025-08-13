@@ -40,6 +40,10 @@
   --dl-layout-space-oneandhalfunits: 24px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .button {
   color: var(--dl-color-theme-neutral-dark);
   display: inline-block;

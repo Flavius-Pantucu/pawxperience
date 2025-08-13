@@ -20,14 +20,11 @@ const MainPageCatHotelAd = () => {
                 </p>
               </div>
               <div className="main-page-cat-hotel-ad-actions">
-                <Link
-                  to="/"
-                  className="main-page-cat-hotel-ad-navlink thq-button-filled"
-                >
+                <div className="main-page-cat-hotel-ad-navlink thq-button-filled">
                   <span className="main-page-cat-hotel-ad-button-text">
-                    Rezervă acum
+                    <a href="#contact-component">Rezervă acum</a>
                   </span>
-                </Link>
+                </div>
               </div>
             </div>
           </div>
