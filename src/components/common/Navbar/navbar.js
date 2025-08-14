@@ -21,7 +21,7 @@ const Navbar = () => {
               Cat Hotel
             </Link>
             <Link to="/grooming-canin" className="navbar-link thq-body-small">
-              Grooming Caning
+              Grooming Canin
             </Link>
           </nav>
         </div>
